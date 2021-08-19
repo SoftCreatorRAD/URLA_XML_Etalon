@@ -1,25 +1,25 @@
-<?xml version='1.0' encoding='utf-8'?>
-<MESSAGE xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
-         xmlns:ULAD='http://www.datamodelextension.org/Schema/ULAD'
-         xmlns:DU='http://www.datamodelextension.org/Schema/DU' xmlns:xlink='http://www.w3.org/1999/xlink'
-         MISMOReferenceModelIdentifier='3.4.032420160128'
-         xsi:schemaLocation='http://www.mismo.org/residential/2009/schemas DU_Wrapper_3.4.0_B324.xsd'
-         xmlns='http://www.mismo.org/residential/2009/schemas'>
+<?xml version="1.0" encoding="utf-8"?>
+<MESSAGE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:ULAD="http://www.datamodelextension.org/Schema/ULAD"
+         xmlns:DU="http://www.datamodelextension.org/Schema/DU" xmlns:xlink="http://www.w3.org/1999/xlink"
+         MISMOReferenceModelIdentifier="3.4.032420160128"
+         xsi:schemaLocation="http://www.mismo.org/residential/2009/schemas DU_Wrapper_3.4.0_B324.xsd"
+         xmlns="http://www.mismo.org/residential/2009/schemas">
     <ABOUT_VERSIONS>
-        <ABOUT_VERSION SequenceNumber='1'>
+        <ABOUT_VERSION SequenceNumber="1">
             <CreatedDatetime>2021-06-30T19:27:42Z</CreatedDatetime>
         </ABOUT_VERSION>
     </ABOUT_VERSIONS>
     <DEAL_SETS>
         <DEAL_SET>
             <DEALS>
-                <DEAL MISMOReferenceModelIdentifier='3.4.032420160128'>
+                <DEAL MISMOReferenceModelIdentifier="3.4.032420160128">
                     <ASSETS>
 						<ASSET SequenceNumber="1" xlink:label="ASSET_1">
 							<ASSET_DETAIL>
                                 <!-- AssetType = SavingsAccount -->
 								<AssetAccountIdentifier>URLA_2a_3</AssetAccountIdentifier>
-								<AssetCashOrMarketValueAmount>URLA_2a_4</AssetCashOrMarketValueAmount>
+								<AssetCashOrMarketValueAmount>3333</AssetCashOrMarketValueAmount><!--URLA_2a_4-->
 								<AssetType>URLA_2a_1</AssetType>
 							</ASSET_DETAIL>
 							<ASSET_HOLDER>
@@ -31,7 +31,7 @@
                         <ASSET SequenceNumber="15" xlink:label="ASSET_15">
                             <ASSET_DETAIL>
                                 <!-- AssetTypeOtherDescription field is present -->
-                                <AssetCashOrMarketValueAmount>URLA_2b_2</AssetCashOrMarketValueAmount>
+                                <AssetCashOrMarketValueAmount>3333</AssetCashOrMarketValueAmount><!--URLA_2b_2-->
                                 <AssetType>URLA_2b_1</AssetType>
                                 <AssetTypeOtherDescription>URLA_2b__1</AssetTypeOtherDescription>
                             </ASSET_DETAIL>
@@ -41,9 +41,9 @@
                                 <OWNED_PROPERTY_DETAIL>
                                     <OwnedPropertyDispositionStatusType>URLA_3a_4</OwnedPropertyDispositionStatusType>
                                     <OwnedPropertyLienUPBAmount>0000.00</OwnedPropertyLienUPBAmount>
-                                    <OwnedPropertyMaintenanceExpenseAmount>URLA_3a_6</OwnedPropertyMaintenanceExpenseAmount>
-                                    <OwnedPropertyRentalIncomeGrossAmount>URLA_3a_7</OwnedPropertyRentalIncomeGrossAmount>
-                                    <OwnedPropertyRentalIncomeNetAmount>-URLA_3a_8</OwnedPropertyRentalIncomeNetAmount>
+                                    <OwnedPropertyMaintenanceExpenseAmount>3333</OwnedPropertyMaintenanceExpenseAmount><!--URLA_3a_6-->
+                                    <OwnedPropertyRentalIncomeGrossAmount>3333</OwnedPropertyRentalIncomeGrossAmount><!--URLA_3a_7-->
+                                    <OwnedPropertyRentalIncomeNetAmount>-3333</OwnedPropertyRentalIncomeNetAmount><!--URLA_3a_8-->
                                     <OwnedPropertySubjectIndicator>false</OwnedPropertySubjectIndicator>
                                 </OWNED_PROPERTY_DETAIL>
                                 <PROPERTY>
@@ -64,24 +64,24 @@
                                     <SALES_CONTRACTS>
                                         <SALES_CONTRACT>
                                             <SALES_CONTRACT_DETAIL>
-                                                <SalesContractAmount>URLA_3a_3</SalesContractAmount>>
-                                            </SALES_CONTRACT_DETAIL>>
-                                        </SALES_CONTRACT>>
-                                    </SALES_CONTRACTS>>
+                                                <SalesContractAmount>3333</SalesContractAmount><!--URLA_3a_3-->
+                                            </SALES_CONTRACT_DETAIL>
+                                        </SALES_CONTRACT>
+                                    </SALES_CONTRACTS>
                                     <PROPERTY_VALUATIONS>
                                         <PROPERTY_VALUATION>
                                             <PROPERTY_VALUATION_DETAIL>
-                                                <PropertyValuationAmount>URLA_3a_3__1</PropertyValuationAmount>>
-                                            </PROPERTY_VALUATION_DETAIL>>
-                                        </PROPERTY_VALUATION>>
-                                    </PROPERTY_VALUATIONS>>
+                                                <PropertyValuationAmount>3333</PropertyValuationAmount><!--URLA_3a_3__1-->
+                                            </PROPERTY_VALUATION_DETAIL>
+                                        </PROPERTY_VALUATION>
+                                    </PROPERTY_VALUATIONS>
                                 </PROPERTY>
                             </OWNED_PROPERTY>
                         </ASSET>
 					</ASSETS>
                     <EXPENSES>
                         <EXPENSE SequenceNumber="1" xlink:label="EXPENSE_1">
-                            <ExpenseMonthlyPaymentAmount>URLA_2d_2</ExpenseMonthlyPaymentAmount>
+                            <ExpenseMonthlyPaymentAmount>3333</ExpenseMonthlyPaymentAmount><!--URLA_2d_2-->
                             <ExpenseType>URLA_2d_1</ExpenseType>
                             <ExpenseTypeOtherDescription>URLA_2d_1__1</ExpenseTypeOtherDescription>
                         </EXPENSE>
@@ -101,24 +101,24 @@
                                 <PROPERTY_DETAIL>
                                     <AttachmentType>Attached</AttachmentType>
                                     <CommunityPropertyStateIndicator>false</CommunityPropertyStateIndicator>
-                                    <ConstructionMethodType>URLA_4a_8</ConstructionMethodType>
-                                    <FHASecondaryResidenceIndicator>URLA_4a_6_1</FHASecondaryResidenceIndicator>
-                                    <FinancedUnitCount>URLA_4a_4</FinancedUnitCount><!--URLA_4a_4-->
+                                    <ConstructionMethodType>false</ConstructionMethodType><!--URLA_4a_8-->
+                                    <FHASecondaryResidenceIndicator>false</FHASecondaryResidenceIndicator><!--URLA_4a_6_1-->
+                                    <FinancedUnitCount>3333</FinancedUnitCount><!--URLA_4a_4-->
                                     <PropertyEstateType>URLA_L2_3</PropertyEstateType>
-                                    <PropertyEstimatedValueAmount>URLA_4a_5</PropertyEstimatedValueAmount><!--URLA_4a_5-->
+                                    <PropertyEstimatedValueAmount>3333</PropertyEstimatedValueAmount><!--URLA_4a_5-->
                                     <PropertyExistingCleanEnergyLienIndicator>false</PropertyExistingCleanEnergyLienIndicator>
                                     <PropertyInProjectIndicator>true</PropertyInProjectIndicator>
-                                    <PropertyMixedUsageIndicator>URLA_4a_7</PropertyMixedUsageIndicator>
+                                    <PropertyMixedUsageIndicator>false</PropertyMixedUsageIndicator><!--URLA_4a_7-->
                                     <PropertyStructureBuiltYear>1990</PropertyStructureBuiltYear>
                                     <PropertyUsageType>URLA_4a_6</PropertyUsageType>
-                                    <PUDIndicator>URLA_L1_12</PUDIndicator>
-                                    <RentalEstimatedGrossMonthlyRentAmount>URLA_4c_1</RentalEstimatedGrossMonthlyRentAmount>
-                                    <RentalEstimatedNetMonthlyRentAmount>URLA_4c_2</RentalEstimatedNetMonthlyRentAmount>
+                                    <PUDIndicator>false</PUDIndicator><!--URLA_L1_12-->
+                                    <RentalEstimatedGrossMonthlyRentAmount>3333</RentalEstimatedGrossMonthlyRentAmount><!--URLA_4c_1-->
+                                    <RentalEstimatedNetMonthlyRentAmount>3333</RentalEstimatedNetMonthlyRentAmount><!--URLA_4c_2-->
                                 </PROPERTY_DETAIL>
                                 <PROPERTY_VALUATIONS>
                                     <PROPERTY_VALUATION>
                                         <PROPERTY_VALUATION_DETAIL>
-                                            <PropertyValuationAmount>URLA_4a_5</PropertyValuationAmount><!--URLA_4a_5-->
+                                            <PropertyValuationAmount>3333</PropertyValuationAmount><!--URLA_4a_5-->
                                         </PROPERTY_VALUATION_DETAIL>
                                     </PROPERTY_VALUATION>
                                 </PROPERTY_VALUATIONS>
@@ -133,35 +133,32 @@
                         </COLLATERAL>
                     </COLLATERALS>
                     <LIABILITIES>
-                        <LIABILITY SequenceNumber='1' xlink:label='LIABILITY_1'>
+                        <LIABILITY SequenceNumber="1" xlink:label="LIABILITY_1">
                             <LIABILITY_DETAIL>
                                 <!--TODO: define ID-->
-                                <LiabilityAccountIdentifier>URLA_3a_10, URLA_2c_3</LiabilityAccountIdentifier>
+                                <LiabilityAccountIdentifier>URLA_3a_10</LiabilityAccountIdentifier><!--URLA_2c_3-->
                                 <LiabilityExclusionIndicator>false</LiabilityExclusionIndicator>
-                                <LiabilityMonthlyPaymentAmount>URLA_3a_11, URLA_2c_6</LiabilityMonthlyPaymentAmount><!--URLA_2c_6-->
+                                <LiabilityMonthlyPaymentAmount>3333</LiabilityMonthlyPaymentAmount><!--URLA_3a_11 and URLA_2c_6-->
                                 <LiabilityPaymentIncludesTaxesInsuranceIndicator>false
                                 </LiabilityPaymentIncludesTaxesInsuranceIndicator>
-                                <LiabilityPayoffStatusIndicator>URLA_3a_13, URLA_2c_5</LiabilityPayoffStatusIndicator>
+                                <LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator><!--URLA_3a_13 and URLA_2c_5-->
                                 <LiabilityRemainingTermMonthsCount>11</LiabilityRemainingTermMonthsCount>
-                                <LiabilityUnpaidBalanceAmount>URLA_3a_11, URLA_2c_4</LiabilityUnpaidBalanceAmount>
-                                <!--
-                                <LiabilityType>Revolving</LiabilityType>
-                                -->
-                                <LiabilityType>URLA_3a_11, URLA_2c_1</LiabilityType>
+                                <!--<LiabilityType>Revolving</LiabilityType>-->
+                                <LiabilityType>URLA_3a_11</LiabilityType><!--URLA_2c_1-->
                                 <LiabilityTypeOtherDescription>URLA_2c_1__1</LiabilityTypeOtherDescription>
-                                <LiabilityUnpaidBalanceAmount>3333</LiabilityUnpaidBalanceAmount><!--URLA_3a_11 or URLA_2c_4-->
+                                <LiabilityUnpaidBalanceAmount>3333</LiabilityUnpaidBalanceAmount><!--URLA_3a_11 and URLA_2c_4-->
                                 <MortgageType>URLA_3a_14</MortgageType>
-                                <HELOCMaximumBalanceAmount>URLA_3a_15</HELOCMaximumBalanceAmount>
+                                <HELOCMaximumBalanceAmount>3333</HELOCMaximumBalanceAmount><!--URLA_3a_15-->
                             </LIABILITY_DETAIL>
                             <LIABILITY_HOLDER>
                                 <NAME>
-                                    <FullName>URLA_3a_9, URLA_2c_2</FullName>
+                                    <FullName>URLA_3a_9</FullName><!--URLA_2c_2-->
                                 </NAME>
                             </LIABILITY_HOLDER>
                         </LIABILITY>
                     </LIABILITIES>
                     <LOANS>
-                        <LOAN SequenceNumber='1' xlink:label='LOAN_1' LoanRoleType='SubjectLoan'>
+                        <LOAN SequenceNumber="1" xlink:label="LOAN_1" LoanRoleType="SubjectLoan">
                             <AMORTIZATION>
                                 <AMORTIZATION_RULE>
                                     <AmortizationType>URLA_L3_5</AmortizationType>
@@ -178,7 +175,7 @@
                                 <DOCUMENT_SPECIFIC_DATA_SET>
                                     <URLA>
                                         <URLA_DETAIL>
-                                            <BorrowerRequestedLoanAmount>URLA_4a_1</BorrowerRequestedLoanAmount>
+                                            <BorrowerRequestedLoanAmount>3333</BorrowerRequestedLoanAmount><!--URLA_4a_1-->
                                             <EstimatedClosingCostsAmount>3333</EstimatedClosingCostsAmount><!--URLA_L4_6-->
                                             <MIAndFundingFeeFinancedAmount>3333</MIAndFundingFeeFinancedAmount><!--URLA_L4_9_2-->
                                             <MIAndFundingFeeTotalAmount>10858.75</MIAndFundingFeeTotalAmount>
@@ -197,15 +194,14 @@
                                 </HMDA_LOAN_DETAIL>
                             </HMDA_LOAN>
                             <HOUSING_EXPENSES>
-                                <HOUSING_EXPENSE SequenceNumber='1'>
+                                <HOUSING_EXPENSE SequenceNumber="1">
                                     <!--TODO: it's not clear what ID should be set-->
                                     <HousingExpensePaymentAmount>3333</HousingExpensePaymentAmount><!--URLA_L3_14_1-->
-                                    <HousingExpenseTimingType>URLA_L3_14_2</HousingExpenseTimingType>
-                                    <HousingExpenseType>URLA_L3_14_3</HousingExpenseType>
+                                    <HousingExpenseTimingType>3333</HousingExpenseTimingType><!--URLA_L3_14_2-->
+                                    <HousingExpenseType>3333</HousingExpenseType><!--URLA_L3_14_3-->
                                 </HOUSING_EXPENSE>
                                 <HOUSING_EXPENSE_SUMMARY>
-                                    <HousingExpenseProposedTotalMonthlyPaymentAmount>3333
-                                    </HousingExpenseProposedTotalMonthlyPaymentAmount><!--URLA_L3_14-->
+                                    <HousingExpenseProposedTotalMonthlyPaymentAmount>3333</HousingExpenseProposedTotalMonthlyPaymentAmount><!--URLA_L3_14-->
                                 </HOUSING_EXPENSE_SUMMARY>
                             </HOUSING_EXPENSES>
                             <LOAN_DETAIL>
@@ -222,10 +218,10 @@
                                 <RenovationLoanIndicator>false</RenovationLoanIndicator>
                             </LOAN_DETAIL>
                             <LOAN_IDENTIFIERS>
-                                <LOAN_IDENTIFIER SequenceNumber='1'>
+                                <LOAN_IDENTIFIER SequenceNumber="1">
                                     <LoanIdentifier>URLA_B_03</LoanIdentifier>
                                     <LoanIdentifierType>URLA_B_01</LoanIdentifierType>
-                                   <!-- <LoanIdentifierType>LenderLoan</LoanIdentifierType> -->
+                                    <!-- <LoanIdentifierType>LenderLoan</LoanIdentifierType> -->
                                 </LOAN_IDENTIFIER>
                             </LOAN_IDENTIFIERS>
                             <MATURITY>
@@ -241,13 +237,13 @@
                                 </ORIGINATION_SYSTEM>
                             </ORIGINATION_SYSTEMS>
                             <PURCHASE_CREDITS>
-                                <PURCHASE_CREDIT SequenceNumber='1'>
-                                    <PurchaseCreditAmount>URLA_2b_2</PurchaseCreditAmount>
+                                <PURCHASE_CREDIT SequenceNumber="1">
+                                    <PurchaseCreditAmount>3333</PurchaseCreditAmount><!--URLA_2b_2-->
                                     <PurchaseCreditType>URLA_2b_4</PurchaseCreditType>
                                 </PURCHASE_CREDIT>
-                                <PURCHASE_CREDIT SequenceNumber='2'>
+                                <PURCHASE_CREDIT SequenceNumber="2">
                                     <!-- PurchaseCreditTypeOtherDescription field is present -->
-                                    <PurchaseCreditAmount>URLA_2b_2</PurchaseCreditAmount>
+                                    <PurchaseCreditAmount>3333</PurchaseCreditAmount><!--URLA_2b_2-->
                                     <PurchaseCreditType>URLA_2b_4</PurchaseCreditType>
                                     <PurchaseCreditTypeOtherDescription>URLA_2b_4__1</PurchaseCreditTypeOtherDescription>
                                 </PURCHASE_CREDIT>
@@ -258,7 +254,7 @@
                                 <LoanPurposeType>URLA_4a_2</LoanPurposeType>
                                 <LoanPurposeTypeOtherDescription>URLA_4a_2_1</LoanPurposeTypeOtherDescription>
                                 <MortgageType>URLA_L3_1</MortgageType>
-                                <NoteAmount>URLA_4a_1__1</NoteAmount>
+                                <NoteAmount>3333</NoteAmount><!--URLA_4a_1__1-->
                                 <NoteRatePercent>3333</NoteRatePercent><!--URLA_L3_2-->
                             </TERMS_OF_LOAN>
                         </LOAN>
@@ -314,7 +310,7 @@
                                 </NAME>
                             </INDIVIDUAL>
                             <ADDRESSES>
-                                <ADDRESS SequenceNumber='1'>
+                                <ADDRESS SequenceNumber="1">
                                     <AddressType>URLA_1a_17</AddressType>
                                     <CityName>URLA_1a_17_3</CityName>
                                     <CountryCode>URLA_1a_17_6</CountryCode>
@@ -323,7 +319,7 @@
                                 </ADDRESS>
                             </ADDRESSES>
                             <LANGUAGES>
-                                <LANGUAGE SequenceNumber='1'>
+                                <LANGUAGE SequenceNumber="1">
                                     <EXTENSION>
                                         <OTHER>
                                             <ULAD:LANGUAGE_EXTENSION>
@@ -334,7 +330,7 @@
                                 </LANGUAGE>
                             </LANGUAGES>
                             <ROLES>
-                                <ROLE SequenceNumber='1' xlink:label='BORROWER_1'>
+                                <ROLE SequenceNumber="1" xlink:label="BORROWER_1">
                                     <BORROWER>
                                         <BORROWER_DETAIL>
                                             <BorrowerBirthDate>1973-03-03</BorrowerBirthDate><!--URLA_1a_4-->
@@ -345,14 +341,14 @@
                                         </BORROWER_DETAIL>
                                         <COUNSELING>
                                             <COUNSELING_EVENTS>
-                                                <COUNSELING_EVENT SequenceNumber='1' xlink:label='COUNSELING_EVENT_1'>
+                                                <COUNSELING_EVENT SequenceNumber="1" xlink:label="COUNSELING_EVENT_1">
                                                     <COUNSELING_EVENT_DETAIL>
                                                         <CounselingConfirmationIndicator>false
                                                         </CounselingConfirmationIndicator>
                                                         <CounselingType>Education</CounselingType>
                                                     </COUNSELING_EVENT_DETAIL>
                                                 </COUNSELING_EVENT>
-                                                <COUNSELING_EVENT SequenceNumber='2' xlink:label='COUNSELING_EVENT_2'>
+                                                <COUNSELING_EVENT SequenceNumber="2" xlink:label="COUNSELING_EVENT_2">
                                                     <COUNSELING_EVENT_DETAIL>
                                                         <CounselingConfirmationIndicator>false
                                                         </CounselingConfirmationIndicator>
@@ -366,63 +362,62 @@
                                                 <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="CURRENT_INCOME_ITEM_1">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <!-- IncomeType = Base -->
-                                                        <CurrentIncomeMonthlyTotalAmount>URLA_1b_10_1</CurrentIncomeMonthlyTotalAmount>
-                                                        <EmploymentIncomeIndicator>URLA_1b_10_1_0</EmploymentIncomeIndicator>
+                                                        <CurrentIncomeMonthlyTotalAmount>3333</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_1-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_1_0-->
                                                         <IncomeType>URLA_1b_10_1__1</IncomeType>
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="2" xlink:label="CURRENT_INCOME_ITEM_2">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <!-- IncomeType = Overtime -->
-                                                        <CurrentIncomeMonthlyTotalAmount>URLA_1b_10_2</CurrentIncomeMonthlyTotalAmount>
-                                                        <EmploymentIncomeIndicator>URLA_1b_10_2_0</EmploymentIncomeIndicator>
+                                                        <CurrentIncomeMonthlyTotalAmount>3333</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_2-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_2_0-->
                                                         <IncomeType>URLA_1b_10_2__1</IncomeType>
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="3" xlink:label="CURRENT_INCOME_ITEM_3">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <!-- IncomeType = Bonus -->
-                                                        <CurrentIncomeMonthlyTotalAmount>URLA_1b_10_3</CurrentIncomeMonthlyTotalAmount>
-                                                        <EmploymentIncomeIndicator>URLA_1b_10_3_0</EmploymentIncomeIndicator>
+                                                        <CurrentIncomeMonthlyTotalAmount>3333</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_3-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_3_0-->
                                                         <IncomeType>URLA_1b_10_3__1</IncomeType>
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="4" xlink:label="CURRENT_INCOME_ITEM_4">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <!-- IncomeType = Commissions -->
-                                                        <CurrentIncomeMonthlyTotalAmount>URLA_1b_10_4</CurrentIncomeMonthlyTotalAmount>
-                                                        <EmploymentIncomeIndicator>URLA_1b_10_4_0</EmploymentIncomeIndicator>
+                                                        <CurrentIncomeMonthlyTotalAmount>3333</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_4-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_4_0-->
                                                         <IncomeType>URLA_1b_10_4__1</IncomeType>
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="5" xlink:label="CURRENT_INCOME_ITEM_5">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <!-- IncomeType = Other -->
-                                                        <CurrentIncomeMonthlyTotalAmount>URLA_1b_10_6</CurrentIncomeMonthlyTotalAmount>
-                                                        <EmploymentIncomeIndicator>URLA_1b_10_6_0</EmploymentIncomeIndicator>
+                                                        <CurrentIncomeMonthlyTotalAmount>3333</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_6-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_6_0-->
                                                         <IncomeType>URLA_1b_10_6__1</IncomeType>
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="6" xlink:label="CURRENT_INCOME_ITEM_6">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <!-- IncomeType = AccessoryUnitIincome -->
-                                                        <CurrentIncomeMonthlyTotalAmount>URLA_1e_2</CurrentIncomeMonthlyTotalAmount>
+                                                        <CurrentIncomeMonthlyTotalAmount>3333</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
                                                         <EmploymentIncomeIndicator>URLA_1e_1__1</EmploymentIncomeIndicator>
                                                         <IncomeType>URLA_1e_1</IncomeType>
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM_SUMMARY>
-													<MonthlyMilitaryEntitlementsAmount>URLA_1b_10_5</MonthlyMilitaryEntitlementsAmount>
+													<MonthlyMilitaryEntitlementsAmount>3333</MonthlyMilitaryEntitlementsAmount><!--URLA_1b_10_5-->
 												</CURRENT_INCOME_ITEM_SUMMARY>
                                             </CURRENT_INCOME_ITEMS>
                                         </CURRENT_INCOME>
                                         <DECLARATION>
                                             <DECLARATION_DETAIL>
                                                 <BankruptcyIndicator>false</BankruptcyIndicator>
-                                                <CitizenshipResidencyType>URLA_1a_5
-                                                </CitizenshipResidencyType>
+                                                <CitizenshipResidencyType>URLA_1a_5</CitizenshipResidencyType>
                                                 <FHASecondaryResidenceIndicator>false</FHASecondaryResidenceIndicator>
-                                                <HomeownerPastThreeYearsType>URLA_5a_1_1</HomeownerPastThreeYearsType>
+                                                <HomeownerPastThreeYearsType>false</HomeownerPastThreeYearsType><!--URLA_5a_1_1-->
                                                 <IntentToOccupyType>Yes</IntentToOccupyType><!--URLA_5a_1-->
                                                 <OutstandingJudgmentsIndicator>false</OutstandingJudgmentsIndicator>
                                             </DECLARATION_DETAIL>
@@ -431,9 +426,12 @@
                                             <DEPENDENT>
                                                 <DependentAgeYearsCount>1</DependentAgeYearsCount>
                                             </DEPENDENT>
+                                            <DEPENDENT>
+                                                <DependentAgeYearsCount>3</DependentAgeYearsCount>
+                                            </DEPENDENT>
                                         </DEPENDENTS>
                                         <EMPLOYERS>
-                                            <EMPLOYER SequenceNumber='1' xlink:label='EMPLOYER_1'>
+                                            <EMPLOYER SequenceNumber="1" xlink:label="EMPLOYER_1">
                                                 <!-- EmploymentStatusType = Current -->
                                                 <LEGAL_ENTITY>
                                                     <CONTACTS>
@@ -461,15 +459,15 @@
                                                     <CountryCode>URLA_1b_4_6</CountryCode>
                                                 </ADDRESS>
                                                 <EMPLOYMENT>
-                                                    <EmploymentBorrowerSelfEmployedIndicator>URLA_1b_9</EmploymentBorrowerSelfEmployedIndicator>
-                                                    <EmploymentMonthlyIncomeAmount>URLA_1b_9_2</EmploymentMonthlyIncomeAmount>
+                                                    <EmploymentBorrowerSelfEmployedIndicator>false</EmploymentBorrowerSelfEmployedIndicator><!--URLA_1b_9-->
+                                                    <EmploymentMonthlyIncomeAmount>3333</EmploymentMonthlyIncomeAmount><!--URLA_1b_9_2-->
                                                     <EmploymentClassificationType>Primary</EmploymentClassificationType>
                                                     <EmploymentPositionDescription>URLA_1b_5</EmploymentPositionDescription>
                                                     <EmploymentStartDate>URLA_1b_6</EmploymentStartDate>
                                                     <EmploymentStatusType>URLA_1b_1</EmploymentStatusType>
-                                                    <EmploymentTimeInLineOfWorkMonthsCount>URLA_1b_7</EmploymentTimeInLineOfWorkMonthsCount>
+                                                    <EmploymentTimeInLineOfWorkMonthsCount>3333</EmploymentTimeInLineOfWorkMonthsCount><!--URLA_1b_7-->
                                                     <OwnershipInterestType>URLA_1b_9_1</OwnershipInterestType>
-                                                    <SpecialBorrowerEmployerRelationshipIndicator>URLA_1b_8</SpecialBorrowerEmployerRelationshipIndicator>
+                                                    <SpecialBorrowerEmployerRelationshipIndicator>false</SpecialBorrowerEmployerRelationshipIndicator><!--URLA_1b_8-->
                                                     <EXTENSION>
                                                         <OTHER>
                                                             <DU:EMPLOYMENT_EXTENSION>
@@ -508,8 +506,8 @@
                                                     <CountryCode>URLA_1d_3_6</CountryCode>
                                                 </ADDRESS>
                                                 <EMPLOYMENT>
-                                                    <EmploymentBorrowerSelfEmployedIndicator>URLA_1d_7</EmploymentBorrowerSelfEmployedIndicator>
-                                                    <EmploymentMonthlyIncomeAmount>URLA_1d_8</EmploymentMonthlyIncomeAmount>
+                                                    <EmploymentBorrowerSelfEmployedIndicator>false</EmploymentBorrowerSelfEmployedIndicator><!--URLA_1d_7-->
+                                                    <EmploymentMonthlyIncomeAmount>3333</EmploymentMonthlyIncomeAmount><!--URLA_1d_8-->
                                                     <EmploymentPositionDescription>URLA_1d_4</EmploymentPositionDescription>
                                                     <EmploymentStartDate>URLA_1d_5</EmploymentStartDate>
                                                     <EmploymentEndDate>URLA_1d_6</EmploymentEndDate>
@@ -552,7 +550,7 @@
                                             </EXTENSION>
                                         </GOVERNMENT_MONITORING>
                                         <RESIDENCES>
-                                            <RESIDENCE SequenceNumber='1'>
+                                            <RESIDENCE SequenceNumber="1">
                                                 <ADDRESS>
                                                     <CityName>URLA_1a_13_3</CityName>
                                                     <CountryCode>URLA_1a_13_6</CountryCode>
@@ -563,8 +561,7 @@
                                                 <RESIDENCE_DETAIL>
                                                     <BorrowerResidencyBasisType>URLA_1a_14_1</BorrowerResidencyBasisType>
                                                     <!--TODO: 1a.14 or 1a.16-->
-                                                    <BorrowerResidencyDurationMonthsCount>3333
-                                                    </BorrowerResidencyDurationMonthsCount><!--URLA_1a_14-->
+                                                    <BorrowerResidencyDurationMonthsCount>3333</BorrowerResidencyDurationMonthsCount><!--URLA_1a_14-->
                                                     <BorrowerResidencyType>URLA_1a_13</BorrowerResidencyType>
                                                 </RESIDENCE_DETAIL>
                                             </RESIDENCE>
@@ -589,14 +586,14 @@
                                 </LEGAL_ENTITY_DETAIL>
                             </LEGAL_ENTITY>
                             <ADDRESSES>
-                                <ADDRESS SequenceNumber='1'>
+                                <ADDRESS SequenceNumber="1">
                                     <CityName>URLA_9_2__3</CityName>
                                     <PostalCode>URLA_9_2__5</PostalCode>
                                     <StateCode>URLA_9_2__4</StateCode>
                                 </ADDRESS>
                             </ADDRESSES>
                             <ROLES>
-                                <ROLE SequenceNumber='3' xlink:label='ROLE_2'>
+                                <ROLE SequenceNumber="3" xlink:label="ROLE_2">
                                     <LICENSES>
                                         <LICENSE>
                                             <LICENSE_DETAIL>
@@ -621,7 +618,7 @@
                                     </CONTACT_POINT>
                                     <CONTACT_POINT>
                                         <CONTACT_POINT_TELEPHONE>
-                                            <ContactPointTelephoneValue>111</ContactPointTelephoneValue>
+                                            <ContactPointTelephoneValue>3333</ContactPointTelephoneValue>
                                         </CONTACT_POINT_TELEPHONE>
                                         <CONTACT_POINT_DETAIL>
                                             <ContactPointRoleType>Home</ContactPointRoleType>
@@ -629,7 +626,7 @@
                                     </CONTACT_POINT>
                                     <CONTACT_POINT>
                                         <CONTACT_POINT_TELEPHONE>
-                                            <ContactPointTelephoneValue>222</ContactPointTelephoneValue>
+                                            <ContactPointTelephoneValue>3333</ContactPointTelephoneValue>
                                         </CONTACT_POINT_TELEPHONE>
                                         <CONTACT_POINT_DETAIL>
                                             <ContactPointRoleType>Mobile</ContactPointRoleType>
@@ -637,7 +634,7 @@
                                     </CONTACT_POINT>
                                     <CONTACT_POINT>
                                         <CONTACT_POINT_TELEPHONE>
-                                            <ContactPointTelephoneValue>333</ContactPointTelephoneValue>
+                                            <ContactPointTelephoneValue>3333</ContactPointTelephoneValue>
                                         </CONTACT_POINT_TELEPHONE>
                                         <CONTACT_POINT_DETAIL>
                                             <ContactPointRoleType>Work</ContactPointRoleType>
@@ -651,7 +648,7 @@
                                 </NAME>
                             </INDIVIDUAL>
                             <ROLES>
-                                <ROLE SequenceNumber='4' xlink:label='ROLE_3'>
+                                <ROLE SequenceNumber="4" xlink:label="ROLE_3">
                                     <LICENSES>
                                         <LICENSE>
                                             <LICENSE_DETAIL>
@@ -668,7 +665,7 @@
                         </PARTY>
                     </PARTIES>
                     <RELATIONSHIPS>
-                        <RELATIONSHIP SequenceNumber='1' xlink:from='LIABILITY_1' xlink:to='BORROWER_1' xlink:arcrole='urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE'/>
+                        <RELATIONSHIP SequenceNumber="1" xlink:from="LIABILITY_1" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE"/>
                     </RELATIONSHIPS>
                 </DEAL>
             </DEALS>
