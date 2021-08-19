@@ -28,7 +28,22 @@
 								</NAME>
 							</ASSET_HOLDER>
 						</ASSET>
-                        <ASSET SequenceNumber="15" xlink:label="ASSET_15">
+                        <ASSET SequenceNumber="6" xlink:label="ASSET_2">
+							<ASSET_DETAIL>
+								<AssetCashOrMarketValueAmount>3333</AssetCashOrMarketValueAmount><!--URLA_4d_4-->
+								<AssetType>GiftOfCash</AssetType><!--URLA_4d_1-->
+								<FundsSourceType>URLA_4d_3</FundsSourceType>
+                                <FundsSourceTypeOtherDescription>URLA_4d_3__1</FundsSourceTypeOtherDescription>
+								<EXTENSION>
+									<OTHER>
+										<ULAD:ASSET_DETAIL_EXTENSION>
+											<ULAD:IncludedInAssetAccountIndicator>true</ULAD:IncludedInAssetAccountIndicator><!--URLA_4d_2-->
+										</ULAD:ASSET_DETAIL_EXTENSION>
+									</OTHER>
+								</EXTENSION>
+							</ASSET_DETAIL>
+						</ASSET>
+                        <ASSET SequenceNumber="15" xlink:label="ASSET_3">
                             <ASSET_DETAIL>
                                 <!-- AssetTypeOtherDescription field is present -->
                                 <AssetCashOrMarketValueAmount>3333</AssetCashOrMarketValueAmount><!--URLA_2b_2-->
@@ -139,8 +154,7 @@
                                 <LiabilityAccountIdentifier>URLA_3a_10</LiabilityAccountIdentifier><!--URLA_2c_3-->
                                 <LiabilityExclusionIndicator>false</LiabilityExclusionIndicator>
                                 <LiabilityMonthlyPaymentAmount>3333</LiabilityMonthlyPaymentAmount><!--URLA_3a_11 and URLA_2c_6-->
-                                <LiabilityPaymentIncludesTaxesInsuranceIndicator>false
-                                </LiabilityPaymentIncludesTaxesInsuranceIndicator>
+                                <LiabilityPaymentIncludesTaxesInsuranceIndicator>false</LiabilityPaymentIncludesTaxesInsuranceIndicator>
                                 <LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator><!--URLA_3a_13 and URLA_2c_5-->
                                 <LiabilityRemainingTermMonthsCount>11</LiabilityRemainingTermMonthsCount>
                                 <!--<LiabilityType>Revolving</LiabilityType>-->
@@ -159,32 +173,74 @@
                     </LIABILITIES>
                     <LOANS>
                         <LOAN SequenceNumber="1" xlink:label="LOAN_1" LoanRoleType="SubjectLoan">
+                            <ADJUSTMENT>
+								<INTEREST_RATE_ADJUSTMENT>
+                                    <INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULES>
+                                        <INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULE>
+                                            <PerChangeRateAdjustmentFrequencyMonthsCount>3333</PerChangeRateAdjustmentFrequencyMonthsCount><!--URLA_L3_7-->
+                                            <AdjustmentRuleType>URLA_L3_7__1</AdjustmentRuleType>
+                                        </INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULE>
+                                    </INTEREST_RATE_PER_CHANGE_ADJUSTMENT_RULES>
+									<INTEREST_RATE_LIFETIME_ADJUSTMENT_RULE>
+										<CeilingRatePercent>4.25</CeilingRatePercent>
+									</INTEREST_RATE_LIFETIME_ADJUSTMENT_RULE>
+								</INTEREST_RATE_ADJUSTMENT>
+							</ADJUSTMENT>
                             <AMORTIZATION>
                                 <AMORTIZATION_RULE>
                                     <AmortizationType>URLA_L3_5</AmortizationType>
+                                    <AmortizationTypeOtherDescription>URLA_L3_5_1</AmortizationTypeOtherDescription>
                                     <LoanAmortizationPeriodCount>3333</LoanAmortizationPeriodCount><!--URLA_L3_3-->
                                     <LoanAmortizationPeriodType>URLA_L3_3__1</LoanAmortizationPeriodType>
                                 </AMORTIZATION_RULE>
                             </AMORTIZATION>
+                            <BUYDOWN>
+                                <BUYDOWN_OCCURRENCES>
+                                    <BUYDOWN_OCCURRENCE>
+                                        <BuydownInitialEffectiveInterestRatePercent>3333</BuydownInitialEffectiveInterestRatePercent><!--URLA_L3_12_1-->
+                                    </BUYDOWN_OCCURRENCE>
+                                </BUYDOWN_OCCURRENCES>
+                            </BUYDOWN>
                             <CLOSING_INFORMATION>
                                 <CLOSING_INFORMATION_DETAIL>
                                     <CashFromBorrowerAtClosingAmount>3333</CashFromBorrowerAtClosingAmount><!--URLA_L4_15-->
                                 </CLOSING_INFORMATION_DETAIL>
                             </CLOSING_INFORMATION>
+                            <CONSTRUCTION>
+                                <ConstructionToPermanentClosingType>URLA_L1_3_3_1</ConstructionToPermanentClosingType>
+                                <ConstructionImprovementCostsAmount>3333</ConstructionImprovementCostsAmount><!--URLA_L1_4-->
+                                <LandOriginalCostAmount>3333</LandOriginalCostAmount><!--URLA_L1_6-->
+                            </CONSTRUCTION>
                             <DOCUMENT_SPECIFIC_DATA_SETS>
                                 <DOCUMENT_SPECIFIC_DATA_SET>
                                     <URLA>
                                         <URLA_DETAIL>
+                                            <ApplicationSignedByLoanOriginatorDate>3333</ApplicationSignedByLoanOriginatorDate><!--URLA_9_10-->
+                                            <AlterationsImprovementsAndRepairsAmount>3333</AlterationsImprovementsAndRepairsAmount><!--URLA_L4_2-->
                                             <BorrowerRequestedLoanAmount>3333</BorrowerRequestedLoanAmount><!--URLA_4a_1-->
                                             <EstimatedClosingCostsAmount>3333</EstimatedClosingCostsAmount><!--URLA_L4_6-->
                                             <MIAndFundingFeeFinancedAmount>3333</MIAndFundingFeeFinancedAmount><!--URLA_L4_9_2-->
                                             <MIAndFundingFeeTotalAmount>10858.75</MIAndFundingFeeTotalAmount>
                                             <PrepaidItemsEstimatedAmount>7929.63</PrepaidItemsEstimatedAmount>
                                         </URLA_DETAIL>
+                                        <URLA_TOTAL>
+											<URLATotalDueFromBorrowerAtClosingAmount>102500.00</URLATotalDueFromBorrowerAtClosingAmount>
+											<EXTENSION>
+												<OTHER>
+													<ULAD:URLA_TOTAL_EXTENSION>
+													    <ULAD:URLAAccountBasedAssetTotalAmount>3333</ULAD:URLAAccountBasedAssetTotalAmount><!--URLA_2a_5-->
+													    <ULAD:URLATotalMortgageLoansAmount>3333</ULAD:URLATotalMortgageLoansAmount>
+                                                        <ULAD:URLANonAccountBasedAssetTotalAmount>3333</ULAD:URLANonAccountBasedAssetTotalAmount><!--URLA_2b_3-->
+													</ULAD:URLA_TOTAL_EXTENSION>
+												</OTHER>
+											</EXTENSION>
+										</URLA_TOTAL>
                                     </URLA>
                                 </DOCUMENT_SPECIFIC_DATA_SET>
                             </DOCUMENT_SPECIFIC_DATA_SETS>
                             <GOVERNMENT_LOAN>
+                                <GovernmentRefinanceType>URLA_L1_8</GovernmentRefinanceType>
+                                <GovernmentRefinanceTypeOtherDescription>URLA_L1_8_1</GovernmentRefinanceTypeOtherDescription>
                                 <PropertyEnergyEfficientHomeIndicator>false</PropertyEnergyEfficientHomeIndicator>
                                 <SectionOfActType>203B</SectionOfActType>
                             </GOVERNMENT_LOAN>
@@ -204,19 +260,28 @@
                                     <HousingExpenseProposedTotalMonthlyPaymentAmount>3333</HousingExpenseProposedTotalMonthlyPaymentAmount><!--URLA_L3_14-->
                                 </HOUSING_EXPENSE_SUMMARY>
                             </HOUSING_EXPENSES>
+                            <INTEREST_ONLY>
+                                <InterestOnlyTermMonthsCount>URLA_L3_9_1</InterestOnlyTermMonthsCount>
+                            </INTEREST_ONLY>
                             <LOAN_DETAIL>
+                                <BalloonIndicator>false</BalloonIndicator><!--URLA_L3_8-->URLA_L3_8
+                                <BorrowerCount>URLA_1a_6</BorrowerCount>
                                 <ApplicationReceivedDate>2020-08-26</ApplicationReceivedDate>
                                 <BalloonIndicator>false</BalloonIndicator>
-                                <BelowMarketSubordinateFinancingIndicator>false
-                                </BelowMarketSubordinateFinancingIndicator>
-                                <BuydownTemporarySubsidyFundingIndicator>false</BuydownTemporarySubsidyFundingIndicator>
-                                <ConstructionLoanIndicator>false</ConstructionLoanIndicator>
-                                <EnergyRelatedImprovementsIndicator>false</EnergyRelatedImprovementsIndicator>
-                                <InterestOnlyIndicator>false</InterestOnlyIndicator>
-                                <NegativeAmortizationIndicator>false</NegativeAmortizationIndicator>
-                                <PrepaymentPenaltyIndicator>true</PrepaymentPenaltyIndicator>
-                                <RenovationLoanIndicator>false</RenovationLoanIndicator>
+                                <BelowMarketSubordinateFinancingIndicator>false</BelowMarketSubordinateFinancingIndicator>
+                                <BuydownTemporarySubsidyFundingIndicator>false</BuydownTemporarySubsidyFundingIndicator><!--URLA_L3_12-->
+                                <ConversionOfContractForDeedIndicator>false</ConversionOfContractForDeedIndicator><!--URLA_L1_3_1-->
+                                <ConstructionLoanIndicator>false</ConstructionLoanIndicator><!--URLA_L1_3_3-->
+                                <EnergyRelatedImprovementsIndicator>false</EnergyRelatedImprovementsIndicator><!--URLA_L1_9-->
+                                <InitialFixedPeriodEffectiveMonthsCount>3333</InitialFixedPeriodEffectiveMonthsCount><!--URLA_L3_6-->
+                                <InterestOnlyIndicator>false</InterestOnlyIndicator><!--URLA_L3_9-->
+                                <NegativeAmortizationIndicator>false</NegativeAmortizationIndicator><!--URLA_L3_10-->
+                                <PrepaymentPenaltyIndicator>true</PrepaymentPenaltyIndicator><!--URLA_L3_11-->
+                                <RenovationLoanIndicator>false</RenovationLoanIndicator><!--URLA_L1_3_2-->
                             </LOAN_DETAIL>
+                            <REFINANCE>
+								<RefinanceCashOutDeterminationType>URLA_L1_7</RefinanceCashOutDeterminationType>
+							</REFINANCE>
                             <LOAN_IDENTIFIERS>
                                 <LOAN_IDENTIFIER SequenceNumber="1">
                                     <LoanIdentifier>URLA_B_03</LoanIdentifier>
@@ -224,6 +289,12 @@
                                     <!-- <LoanIdentifierType>LenderLoan</LoanIdentifierType> -->
                                 </LOAN_IDENTIFIER>
                             </LOAN_IDENTIFIERS>
+                            <LOAN_PRODUCT>
+                                <LOAN_PRODUCT_DETAIL>
+                                    <DiscountPointsTotalAmount>6840.75</DiscountPointsTotalAmount>
+                                    <ProductDescription>URLA_L3_13</ProductDescription>
+                                </LOAN_PRODUCT_DETAIL>
+                            </LOAN_PRODUCT>
                             <MATURITY>
                                 <MATURITY_RULE>
                                     <LoanMaturityPeriodCount>3333</LoanMaturityPeriodCount><!--URLA_L3_8_1-->
@@ -236,6 +307,11 @@
                                     </LoanOriginationSystemVersionIdentifier>
                                 </ORIGINATION_SYSTEM>
                             </ORIGINATION_SYSTEMS>
+                            <PREPAYMENT_PENALTY>
+                                <PREPAYMENT_PENALTY_LIFETIME_RULE>
+                                    <PrepaymentPenaltyExpirationMonthsCount>3333</PrepaymentPenaltyExpirationMonthsCount><!--URLA_L3_11_1-->
+                                </PREPAYMENT_PENALTY_LIFETIME_RULE>
+                            </PREPAYMENT_PENALTY>
                             <PURCHASE_CREDITS>
                                 <PURCHASE_CREDIT SequenceNumber="1">
                                     <PurchaseCreditAmount>3333</PurchaseCreditAmount><!--URLA_2b_2-->
@@ -250,14 +326,39 @@
                             </PURCHASE_CREDITS>
                             <TERMS_OF_LOAN>
                                 <BaseLoanAmount>3333</BaseLoanAmount><!--URLA_L4_9_1-->
-                                <LienPriorityType>URLA_L3_4</LienPriorityType>
+                                <LienPriorityType>URLA_L3_4</LienPriorityType><!--URLA_4b_2-->
                                 <LoanPurposeType>URLA_4a_2</LoanPurposeType>
                                 <LoanPurposeTypeOtherDescription>URLA_4a_2_1</LoanPurposeTypeOtherDescription>
                                 <MortgageType>URLA_L3_1</MortgageType>
+                                <MortgageTypeOtherDescription>URLA_L3_1_1</MortgageTypeOtherDescription>
                                 <NoteAmount>3333</NoteAmount><!--URLA_4a_1__1-->
                                 <NoteRatePercent>3333</NoteRatePercent><!--URLA_L3_2-->
                             </TERMS_OF_LOAN>
                         </LOAN>
+                        <LOAN SequenceNumber="1" xlink:label="LOANRELATED_1" LoanRoleType="RelatedLoan">
+							<HELOC>
+								<HELOC_OCCURRENCES>
+									<HELOC_OCCURRENCE>
+										<HELOCBalanceAmount>3333</HELOCBalanceAmount><!--URLA_4b_4__1-->
+									</HELOC_OCCURRENCE>
+								</HELOC_OCCURRENCES>
+								<HELOC_RULE>
+									<HELOCMaximumBalanceAmount>3333</HELOCMaximumBalanceAmount><!--URLA_4b_5-->
+								</HELOC_RULE>
+							</HELOC>
+							<LOAN_DETAIL>
+								<HELOCIndicator>true</HELOCIndicator><!--URLA_4b_5__1-->
+							</LOAN_DETAIL>
+							<PAYMENT>
+								<PAYMENT_RULE>
+									<InitialPrincipalAndInterestPaymentAmount>3333</InitialPrincipalAndInterestPaymentAmount><!--URLA_4b_3-->
+								</PAYMENT_RULE>
+							</PAYMENT>
+							<TERMS_OF_LOAN>
+								<LienPriorityType>SecondLien</LienPriorityType>
+                                <NoteAmount>3333</NoteAmount><!--URLA_4b_4-->
+							</TERMS_OF_LOAN>
+						</LOAN>
                     </LOANS>
                     <PARTIES>
                         <PARTY>
@@ -304,9 +405,11 @@
                                     </CONTACT_POINT>
                                 </CONTACT_POINTS>
                                 <NAME>
-                                    <FirstName>URLA_1a_1_1</FirstName>
-                                    <FullName>URLA_4b_1</FullName>
-                                    <LastName>URLA_1a_1_3</LastName>
+                                    <FirstName>URLA_1a_1_1</FirstName><!--URLA_1a_6_1-->
+                                    <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1-->
+                                    <LastName>URLA_1a_1_3</LastName><!--URLA_1b_2__1 and URLA_1a_6_3-->
+                                    <MiddleName>URLA_1a_6_2</MiddleName>
+                                    <SuffixName>URLA_1a_6_4</SuffixName>
                                 </NAME>
                             </INDIVIDUAL>
                             <ADDRESSES>
@@ -424,10 +527,10 @@
                                         </DECLARATION>
                                         <DEPENDENTS>
                                             <DEPENDENT>
-                                                <DependentAgeYearsCount>1</DependentAgeYearsCount>
+                                                <DependentAgeYearsCount>1a_8_1</DependentAgeYearsCount>
                                             </DEPENDENT>
                                             <DEPENDENT>
-                                                <DependentAgeYearsCount>3</DependentAgeYearsCount>
+                                                <DependentAgeYearsCount>1a_8_1</DependentAgeYearsCount>
                                             </DEPENDENT>
                                         </DEPENDENTS>
                                         <EMPLOYERS>
@@ -460,7 +563,7 @@
                                                 </ADDRESS>
                                                 <EMPLOYMENT>
                                                     <EmploymentBorrowerSelfEmployedIndicator>false</EmploymentBorrowerSelfEmployedIndicator><!--URLA_1b_9-->
-                                                    <EmploymentMonthlyIncomeAmount>3333</EmploymentMonthlyIncomeAmount><!--URLA_1b_9_2-->
+                                                    <EmploymentMonthlyIncomeAmount>3333</EmploymentMonthlyIncomeAmount><!--URLA_1b_9_2 and URLA_1b_10-->
                                                     <EmploymentClassificationType>Primary</EmploymentClassificationType>
                                                     <EmploymentPositionDescription>URLA_1b_5</EmploymentPositionDescription>
                                                     <EmploymentStartDate>URLA_1b_6</EmploymentStartDate>
@@ -568,7 +671,7 @@
                                         </RESIDENCES>
                                     </BORROWER>
                                     <ROLE_DETAIL>
-                                        <PartyRoleType>Borrower</PartyRoleType>
+                                        <PartyRoleType>Borrower</PartyRoleType><!--URLA_4b_1__1-->
                                     </ROLE_DETAIL>
                                 </ROLE>
                             </ROLES>
