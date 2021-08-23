@@ -115,14 +115,18 @@
                                 </ADDRESS>
                                 <PROPERTY_DETAIL>
                                     <AttachmentType>Attached</AttachmentType>
-                                    <CommunityPropertyStateIndicator>false</CommunityPropertyStateIndicator>
+                                    <CommunityPropertyStateIndicator>false</CommunityPropertyStateIndicator><!--URLA_L1_2-->
                                     <ConstructionMethodType>false</ConstructionMethodType><!--URLA_4a_8-->
                                     <FHASecondaryResidenceIndicator>false</FHASecondaryResidenceIndicator><!--URLA_4a_6_1-->
                                     <FinancedUnitCount>44</FinancedUnitCount><!--URLA_4a_4-->
+                                    <NativeAmericanLandsType>URLA_L2_6</NativeAmericanLandsType>
+                                    <NativeAmericanLandsTypeOtherDescription>URLA_L2_6__1</NativeAmericanLandsTypeOtherDescription>
+                                    <PropertyAcquiredDate>2000-01-01</PropertyAcquiredDate><!--URLA_L1_5-->
                                     <PropertyEstateType>URLA_L2_3</PropertyEstateType>
                                     <PropertyEstimatedValueAmount>45</PropertyEstimatedValueAmount><!--URLA_4a_5-->
-                                    <PropertyExistingCleanEnergyLienIndicator>false</PropertyExistingCleanEnergyLienIndicator>
-                                    <PropertyInProjectIndicator>true</PropertyInProjectIndicator>
+                                    <PropertyExistingCleanEnergyLienIndicator>false</PropertyExistingCleanEnergyLienIndicator><!--URLA_L1_10-->
+                                    <PropertyGroundLeaseExpirationDate>2000-01-01</PropertyGroundLeaseExpirationDate><!--URLA_L2_3_1-->
+                                    <PropertyInProjectIndicator>true</PropertyInProjectIndicator><!--URLA_L1_13-->
                                     <PropertyMixedUsageIndicator>false</PropertyMixedUsageIndicator><!--URLA_4a_7-->
                                     <PropertyStructureBuiltYear>1990</PropertyStructureBuiltYear>
                                     <PropertyUsageType>URLA_4a_6</PropertyUsageType>
@@ -137,6 +141,11 @@
                                         </PROPERTY_VALUATION_DETAIL>
                                     </PROPERTY_VALUATION>
                                 </PROPERTY_VALUATIONS>
+                                <PROJECT>
+                                    <PROJECT_DETAIL>
+                                        <ProjectLegalStructureType>URLA_L1_11</ProjectLegalStructureType>
+                                    </PROJECT_DETAIL>
+                                </PROJECT>
                                 <SALES_CONTRACTS>
                                     <SALES_CONTRACT>
                                         <SALES_CONTRACT_DETAIL>
@@ -171,6 +180,10 @@
                             </LIABILITY_HOLDER>
                         </LIABILITY>
                     </LIABILITIES>
+                    <LIABILITY_SUMMARY>
+                        <TotalSubjectPropertyPayoffsAndPaymentsAmount>44</TotalSubjectPropertyPayoffsAndPaymentsAmount><!--URLA_L4_4-->
+                        <TotalNonSubjectPropertyDebtsToBePaidOffAmount>45</TotalNonSubjectPropertyDebtsToBePaidOffAmount><!--URLA_L4_5-->
+                    </LIABILITY_SUMMARY>
                     <LOANS>
                         <LOAN SequenceNumber="1" xlink:label="LOAN_1" LoanRoleType="SubjectLoan">
                             <ADJUSTMENT>
@@ -203,7 +216,8 @@
                             </BUYDOWN>
                             <CLOSING_INFORMATION>
                                 <CLOSING_INFORMATION_DETAIL>
-                                    <CashFromBorrowerAtClosingAmount>415</CashFromBorrowerAtClosingAmount><!--URLA_L4_15-->
+                                    <CashFromBorrowerAtClosingAmount>415</CashFromBorrowerAtClosingAmount><!--URLA_L4_15_1-->
+                                    <CashToBorrowerAtClosingAmount>4151</CashToBorrowerAtClosingAmount><!--URLA_L4_15_2-->
                                 </CLOSING_INFORMATION_DETAIL>
                             </CLOSING_INFORMATION>
                             <CONSTRUCTION>
@@ -388,7 +402,7 @@
                                 <CONTACT_POINTS>
                                     <CONTACT_POINT>
                                         <CONTACT_POINT_EMAIL>
-                                            <ContactPointEmailValue>URLA_1a_12</ContactPointEmailValue>
+                                            <ContactPointEmailValue>URLA_1a_12</ContactPointEmailValue><!--URLA_9_8-->
                                         </CONTACT_POINT_EMAIL>
                                     </CONTACT_POINT>
                                     <CONTACT_POINT>
@@ -418,11 +432,11 @@
 									</CONTACT_POINT>
                                 </CONTACT_POINTS>
                                 <NAME>
-                                    <FirstName>URLA_1a_1_1</FirstName><!--URLA_1a_6_1-->
+                                    <FirstName>URLA_1a_1_1</FirstName><!--URLA_1a_6_1 and URLA_9_5__1-->
                                     <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1-->
-                                    <LastName>URLA_1a_1_3</LastName><!--URLA_1b_2__1 and URLA_1a_6_3-->
-                                    <MiddleName>URLA_1a_1_2</MiddleName><!--URLA_1a_6_2-->
-                                    <SuffixName>URLA_1a_1_4</SuffixName><!--URLA_1a_6_4-->
+                                    <LastName>URLA_1a_1_3</LastName><!--URLA_1b_2__1 and URLA_1a_6_3 and URLA_9_5__3-->
+                                    <MiddleName>URLA_1a_1_2</MiddleName><!--URLA_1a_6_2 and URLA_9_5__2-->
+                                    <SuffixName>URLA_1a_1_4</SuffixName><!--URLA_1a_6_4 and URLA_9_5__4-->
                                 </NAME>
                             </INDIVIDUAL>
                             <ADDRESSES>
@@ -451,12 +465,28 @@
                             <ROLES>
                                 <ROLE SequenceNumber="1" xlink:label="BORROWER_1">
                                     <BORROWER>
+                                        <BANKRUPTCIES>
+                                            <BANKRUPTCY>
+                                                <BANKRUPTCY_DETAIL>
+                                                    <BankruptcyChapterType>URLA_5b_8_1</BankruptcyChapterType>
+                                                </BANKRUPTCY_DETAIL>
+                                            </BANKRUPTCY>
+                                            <BANKRUPTCY>
+                                                <BANKRUPTCY_DETAIL>
+                                                    <BankruptcyChapterType>URLA_5b_8_1</BankruptcyChapterType>
+                                                </BANKRUPTCY_DETAIL>
+                                            </BANKRUPTCY>
+                                        </BANKRUPTCIES>
                                         <BORROWER_DETAIL>
                                             <BorrowerBirthDate>2000-01-01</BorrowerBirthDate><!--URLA_1a_4-->
+                                            <CommunityPropertyStateResidentIndicator>false</CommunityPropertyStateResidentIndicator><!--URLA_L1_1-->
                                             <DependentCount>18</DependentCount><!--URLA_1a_8-->
+                                            <DomesticRelationshipType>URLA_UA_2</DomesticRelationshipType>
+                                            <DomesticRelationshipTypeOtherDescription>URLA_UA_3</DomesticRelationshipTypeOtherDescription>
+                                            <DomesticRelationshipStateCode>URLA_UA_4</DomesticRelationshipStateCode>
                                             <MaritalStatusType>URLA_1a_7</MaritalStatusType>
-                                            <SpousalVABenefitsEligibilityIndicator>false
-                                            </SpousalVABenefitsEligibilityIndicator>
+                                            <SelfDeclaredMilitaryServiceIndicator>false</SelfDeclaredMilitaryServiceIndicator><!--URLA_7a_1-->
+                                            <SpousalVABenefitsEligibilityIndicator>false</SpousalVABenefitsEligibilityIndicator><!--URLA_7a_2_1-->
                                         </BORROWER_DETAIL>
                                         <COUNSELING>
                                             <COUNSELING_EVENTS>
@@ -533,12 +563,32 @@
                                         </CURRENT_INCOME>
                                         <DECLARATION>
                                             <DECLARATION_DETAIL>
-                                                <BankruptcyIndicator>false</BankruptcyIndicator>
+                                                <BankruptcyIndicator>false</BankruptcyIndicator><!--URLA_5b_8-->
                                                 <CitizenshipResidencyType>URLA_1a_5</CitizenshipResidencyType>
-                                                <FHASecondaryResidenceIndicator>false</FHASecondaryResidenceIndicator>
+                                                <FHASecondaryResidenceIndicator>false</FHASecondaryResidenceIndicator><!--URLA_5a_1_2__1-->
                                                 <HomeownerPastThreeYearsType>false</HomeownerPastThreeYearsType><!--URLA_5a_1_1-->
                                                 <IntentToOccupyType>Yes</IntentToOccupyType><!--URLA_5a_1-->
-                                                <OutstandingJudgmentsIndicator>false</OutstandingJudgmentsIndicator>
+                                                <PresentlyDelinquentIndicator>false</PresentlyDelinquentIndicator><!--URLA_5b_3-->
+                                                <PartyToLawsuitIndicator>false</PartyToLawsuitIndicator><!--URLA_5b_4-->
+                                                <PriorPropertyDeedInLieuConveyedIndicator>false</PriorPropertyDeedInLieuConveyedIndicator><!--URLA_5b_5-->
+                                                <PriorPropertyShortSaleCompletedIndicator>false</PriorPropertyShortSaleCompletedIndicator><!--URLA_5b_6-->
+                                                <PriorPropertyForeclosureCompletedIndicator>false</PriorPropertyForeclosureCompletedIndicator><!--URLA_5b_7-->
+                                                <PriorPropertyTitleType>URLA_5a_1_3</PriorPropertyTitleType>
+                                                <PriorPropertyUsageType>false</PriorPropertyUsageType><!--URLA_5a_1_2-->
+                                                <PropertyProposedCleanEnergyLienIndicator>false</PropertyProposedCleanEnergyLienIndicator><!--URLA_5a_5-->
+                                                <OutstandingJudgmentsIndicator>false</OutstandingJudgmentsIndicator><!--URLA_5b_2-->
+                                                <UndisclosedBorrowedFundsIndicator>false</UndisclosedBorrowedFundsIndicator><!--URLA_5a_3-->
+                                                <UndisclosedBorrowedFundsAmount>531</UndisclosedBorrowedFundsAmount><!--URLA_5a_3_1-->
+                                                <UndisclosedMortgageApplicationIndicator>false</UndisclosedMortgageApplicationIndicator><!--URLA_5a_4_1-->
+                                                <UndisclosedCreditApplicationIndicator>false</UndisclosedCreditApplicationIndicator><!--URLA_5a_4_2-->
+                                                <UndisclosedComakerOfNoteIndicator>false</UndisclosedComakerOfNoteIndicator><!--URLA_5b_1-->
+                                                <EXTENSION>
+                                                    <OTHER>
+                                                        <ULAD:DECLARATION_DETAIL_EXTENSION>
+                                                            <ULAD:SpecialBorrowerSellerRelationshipIndicator>false</ULAD:SpecialBorrowerSellerRelationshipIndicator><!--URLA_5a_2-->
+                                                        </ULAD:DECLARATION_DETAIL_EXTENSION>
+                                                    </OTHER>
+                                                </EXTENSION>
                                             </DECLARATION_DETAIL>
                                         </DECLARATION>
                                         <DEPENDENTS>
@@ -565,7 +615,7 @@
                                                         </CONTACT>
                                                     </CONTACTS>
                                                     <LEGAL_ENTITY_DETAIL>
-                                                        <FullName>URLA_1b_2</FullName>
+                                                        <FullName>URLA_1b_2</FullName><!--URLA_L2_1__3 and URLA_L2_2__3-->
                                                     </LEGAL_ENTITY_DETAIL>
                                                 </LEGAL_ENTITY>
                                                 <ADDRESS>
@@ -635,11 +685,20 @@
                                                 </EMPLOYMENT>
                                              </EMPLOYER>
                                         </EMPLOYERS>
+                                        <MILITARY_SERVICES>
+                                            <MILITARY_SERVICE>
+                                                <MilitaryServiceExpectedCompletionDate>2000-01-01</MilitaryServiceExpectedCompletionDate><!--URLA_7a_3-->
+                                                <MilitaryStatusType>URLA_7a_2</MilitaryStatusType>
+                                            </MILITARY_SERVICE>
+                                        </MILITARY_SERVICES>
                                         <GOVERNMENT_MONITORING>
                                             <GOVERNMENT_MONITORING_DETAIL>
-                                                <HMDAEthnicityRefusalIndicator>false</HMDAEthnicityRefusalIndicator>
-                                                <HMDAGenderRefusalIndicator>false</HMDAGenderRefusalIndicator>
-                                                <HMDARaceRefusalIndicator>false</HMDARaceRefusalIndicator>
+                                                <HMDAGenderCollectedBasedOnVisualObservationOrNameIndicator>false</HMDAGenderCollectedBasedOnVisualObservationOrNameIndicator><!--URLA_8_5-->
+                                                <HMDAEthnicityCollectedBasedOnVisualObservationOrSurnameIndicator>false</HMDAEthnicityCollectedBasedOnVisualObservationOrSurnameIndicator><!--URLA_8_4-->
+                                                <HMDAEthnicityRefusalIndicator>false</HMDAEthnicityRefusalIndicator><!--URLA_8_1__1-->
+                                                <HMDAGenderRefusalIndicator>false</HMDAGenderRefusalIndicator><!--URLA_8_2__1-->
+                                                <HMDARaceCollectedBasedOnVisualObservationOrSurnameIndicator>false</HMDARaceCollectedBasedOnVisualObservationOrSurnameIndicator><!--URLA_8_6-->
+                                                <HMDARaceRefusalIndicator>false</HMDARaceRefusalIndicator><!--URLA_8_3__1-->
                                                 <EXTENSION>
                                                     <OTHER>
                                                         <ULAD:GOVERNMENT_MONITORING_DETAIL_EXTENSION>
@@ -649,10 +708,29 @@
                                                     </OTHER>
                                                 </EXTENSION>
                                             </GOVERNMENT_MONITORING_DETAIL>
+                                            <HMDA_ETHNICITY_ORIGINS>
+												<HMDA_ETHNICITY_ORIGIN>
+													<HMDAEthnicityOriginType>URLA_8_1_1</HMDAEthnicityOriginType>
+													<HMDAEthnicityOriginTypeOtherDescription>URLA_8_1_1_1</HMDAEthnicityOriginTypeOtherDescription>
+												</HMDA_ETHNICITY_ORIGIN>
+											</HMDA_ETHNICITY_ORIGINS>
                                             <HMDA_RACES>
                                                 <HMDA_RACE>
+                                                    <HMDA_RACE_DESIGNATIONS>
+                                                        <HMDA_RACE_DESIGNATION>
+                                                            <EXTENSION>
+                                                                <OTHER>
+                                                                    <ULAD:HMDA_RACE_DESIGNATION_EXTENSION>
+                                                                        <ULAD:HMDARaceDesignationType>URLA_8_3_2</ULAD:HMDARaceDesignationType>
+                                                                        <ULAD:HMDARaceDesignationOtherPacificIslanderDescription>URLA_8_3_3_1</ULAD:HMDARaceDesignationOtherPacificIslanderDescription>
+                                                                    </ULAD:HMDA_RACE_DESIGNATION_EXTENSION>
+                                                                </OTHER>
+                                                            </EXTENSION>
+                                                        </HMDA_RACE_DESIGNATION>
+                                                    </HMDA_RACE_DESIGNATIONS>
                                                     <HMDA_RACE_DETAIL>
                                                         <HMDARaceType>URLA_8_3</HMDARaceType>
+                                                        <HMDARaceTypeAdditionalDescription>URLA_8_3_1</HMDARaceTypeAdditionalDescription>
                                                     </HMDA_RACE_DETAIL>
                                                 </HMDA_RACE>
                                             </HMDA_RACES>
@@ -711,19 +789,24 @@
 												<RESIDENCE_DETAIL>
 													<BorrowerResidencyBasisType>URLA_1a_16_1</BorrowerResidencyBasisType>
 													<BorrowerResidencyDurationMonthsCount>116</BorrowerResidencyDurationMonthsCount><!--URLA_1a_16-->
-													<BorrowerResidencyType>1</BorrowerResidencyType><!--URLA_1a_15--><!--Prior-->
+													<BorrowerResidencyType>1</BorrowerResidencyType><!--URLA_1a_15 and Prior-->
 												</RESIDENCE_DETAIL>
 											</RESIDENCE>
                                         </RESIDENCES>
                                     </BORROWER>
+                                    <PROPERTY_OWNER>
+										<PropertyOwnerStatusType>URLA_L2_1__1</PropertyOwnerStatusType><!--URLA_L2_2__1 and URLA_L2_2__1-->
+                                        <RelationshipVestingType>URLA_L2_4</RelationshipVestingType>
+                                        <RelationshipVestingTypeOtherDescription>URLA_L2_4__1</RelationshipVestingTypeOtherDescription>
+									</PROPERTY_OWNER>
                                     <ROLE_DETAIL>
-                                        <PartyRoleType>Borrower</PartyRoleType><!--URLA_4b_1__1-->
+                                        <PartyRoleType>Borrower</PartyRoleType><!--URLA_4b_1__1 and URLA_9_5 and URLA_L2_1 and URLA_L2_2 and URLA_L2_5-->
                                     </ROLE_DETAIL>
                                 </ROLE>
                             </ROLES>
                             <TAXPAYER_IDENTIFIERS>
                                 <TAXPAYER_IDENTIFIER>
-                                    <TaxpayerIdentifierType>URLA_1a_3__1</TaxpayerIdentifierType>
+                                    <TaxpayerIdentifierType>URLA_1a_3__1</TaxpayerIdentifierType><!--URLA_L2_5-->
                                     <TaxpayerIdentifierValue>URLA_1a_3</TaxpayerIdentifierValue>
                                 </TAXPAYER_IDENTIFIER>
                             </TAXPAYER_IDENTIFIERS>
@@ -741,21 +824,6 @@
                                     <StateCode>URLA_9_2__4</StateCode>
                                 </ADDRESS>
                             </ADDRESSES>
-                            <ROLES>
-                                <ROLE SequenceNumber="3" xlink:label="ROLE_2">
-                                    <LICENSES>
-                                        <LICENSE>
-                                            <LICENSE_DETAIL>
-                                                <LicenseAuthorityLevelType>URLA_9_3__1</LicenseAuthorityLevelType>
-                                                <LicenseIdentifier>URLA_9_3</LicenseIdentifier>
-                                            </LICENSE_DETAIL>
-                                        </LICENSE>
-                                    </LICENSES>
-                                    <ROLE_DETAIL>
-                                        <PartyRoleType>LoanOriginationCompany</PartyRoleType>
-                                    </ROLE_DETAIL>
-                                </ROLE>
-                            </ROLES>
                         </PARTY>
                         <PARTY>
                             <INDIVIDUAL>
@@ -780,7 +848,7 @@
                                 <CONTACT_POINTS>
                                     <CONTACT_POINT>
                                         <CONTACT_POINT_EMAIL>
-                                            <ContactPointEmailValue>URLA_1a_12</ContactPointEmailValue>
+                                            <ContactPointEmailValue>URLA_1a_12</ContactPointEmailValue><!--URLA_9_8-->
                                         </CONTACT_POINT_EMAIL>
                                     </CONTACT_POINT>
                                     <CONTACT_POINT>
@@ -810,25 +878,25 @@
 									</CONTACT_POINT>
                                 </CONTACT_POINTS>
                                 <NAME>
-                                    <FirstName>URLA_1a_1_1</FirstName><!--URLA_1a_6_1-->
-                                    <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1-->
-                                    <LastName>URLA_1a_1_3</LastName><!--URLA_1b_2__1 and URLA_1a_6_3-->
-                                    <MiddleName>URLA_1a_1_2</MiddleName><!--URLA_1a_6_2-->
-                                    <SuffixName>URLA_1a_1_4</SuffixName><!--URLA_1a_6_4-->
+                                    <FirstName>URLA_1a_1_1</FirstName><!--URLA_1a_6_1 and URLA_9_5__1-->
+                                    <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1 and URLA_L2_1__2-->
+                                    <LastName>URLA_1a_1_3</LastName><!--URLA_1b_2__1 and URLA_1a_6_3 and URLA_9_5__3-->
+                                    <MiddleName>URLA_1a_1_2</MiddleName><!--URLA_1a_6_2 and URLA_9_5__2-->
+                                    <SuffixName>URLA_1a_1_4</SuffixName><!--URLA_1a_6_4 and URLA_9_5__4-->
                                 </NAME>
                             </INDIVIDUAL>
                             <ROLES>
-                                <ROLE SequenceNumber="4" xlink:label="ROLE_3">
+                                <ROLE SequenceNumber="4" xlink:label="ROLE_2">
                                     <LICENSES>
                                         <LICENSE>
                                             <LICENSE_DETAIL>
-                                                <LicenseAuthorityLevelType>URLA_9_6__1</LicenseAuthorityLevelType>
-                                                <LicenseIdentifier>URLA_9_6</LicenseIdentifier>
+                                                <LicenseAuthorityLevelType>URLA_9_3__1</LicenseAuthorityLevelType><!--URLA_9_4__1 and URLA_9_6__1-->
+                                                <LicenseIdentifier>URLA_9_3</LicenseIdentifier><!--URLA_9_4 and URLA_9_6-->
                                             </LICENSE_DETAIL>
                                         </LICENSE>
                                     </LICENSES>
                                     <ROLE_DETAIL>
-                                        <PartyRoleType>LoanOriginator</PartyRoleType>
+                                        <PartyRoleType>LoanOriginator</PartyRoleType><!--URLA_4b_1__1 and URLA_9_5-->
                                     </ROLE_DETAIL>
                                 </ROLE>
                             </ROLES>
@@ -913,7 +981,7 @@
                         <SIGNATORY>
                             <EXECUTION>
                                 <EXECUTION_DETAIL>
-                                    <ExecutionDate>2000-01-01</ExecutionDate>
+                                    <ExecutionDate>2000-01-01</ExecutionDate><!--URLA_6_1-->
                                 </EXECUTION_DETAIL>
                             </EXECUTION>
                         </SIGNATORY>
