@@ -166,8 +166,7 @@
                                 <LiabilityPaymentIncludesTaxesInsuranceIndicator>false</LiabilityPaymentIncludesTaxesInsuranceIndicator>
                                 <LiabilityPayoffStatusIndicator>false</LiabilityPayoffStatusIndicator><!--URLA_3a_13 and URLA_2c_5-->
                                 <LiabilityRemainingTermMonthsCount>11</LiabilityRemainingTermMonthsCount>
-                                <!--<LiabilityType>Revolving</LiabilityType>-->
-                                <LiabilityType>URLA_3a_11</LiabilityType><!--URLA_2c_1-->
+                                <LiabilityType>Revolving</LiabilityType><!--URLA_3a_11 and URLA_2c_1-->
                                 <LiabilityTypeOtherDescription>URLA_2c_1__1</LiabilityTypeOtherDescription>
                                 <LiabilityUnpaidBalanceAmount>31124</LiabilityUnpaidBalanceAmount><!--URLA_3a_11 and URLA_2c_4-->
                                 <MortgageType>URLA_3a_14</MortgageType>
@@ -468,12 +467,22 @@
                                         <BANKRUPTCIES>
                                             <BANKRUPTCY>
                                                 <BANKRUPTCY_DETAIL>
-                                                    <BankruptcyChapterType>URLA_5b_8_1</BankruptcyChapterType>
+                                                    <BankruptcyChapterType>ChapterSeven</BankruptcyChapterType><!--URLA_5b_8_7-->
                                                 </BANKRUPTCY_DETAIL>
                                             </BANKRUPTCY>
                                             <BANKRUPTCY>
                                                 <BANKRUPTCY_DETAIL>
-                                                    <BankruptcyChapterType>URLA_5b_8_1</BankruptcyChapterType>
+                                                    <BankruptcyChapterType>ChapterEleven</BankruptcyChapterType><!--URLA_5b_8_11-->
+                                                </BANKRUPTCY_DETAIL>
+                                            </BANKRUPTCY>
+                                            <BANKRUPTCY>
+                                                <BANKRUPTCY_DETAIL>
+                                                    <BankruptcyChapterType>ChapterTwelve</BankruptcyChapterType><!--URLA_5b_8_12-->
+                                                </BANKRUPTCY_DETAIL>
+                                            </BANKRUPTCY>
+                                            <BANKRUPTCY>
+                                                <BANKRUPTCY_DETAIL>
+                                                    <BankruptcyChapterType>ChapterThirteen</BankruptcyChapterType><!--URLA_5b_8_13-->
                                                 </BANKRUPTCY_DETAIL>
                                             </BANKRUPTCY>
                                         </BANKRUPTCIES>
@@ -507,53 +516,78 @@
                                             </COUNSELING_EVENTS>
                                         </COUNSELING>
                                         <CURRENT_INCOME>
+                                            <CURRENT_INCOME_DETAIL>
+											    <URLABorrowerTotalOtherIncomeAmount>13</URLABorrowerTotalOtherIncomeAmount><!--URLA_1e_3-->
+											</CURRENT_INCOME_DETAIL>
                                             <CURRENT_INCOME_ITEMS>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="1" xlink:label="CURRENT_INCOME_ITEM_1">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
-                                                        <!-- IncomeType = Base -->
                                                         <CurrentIncomeMonthlyTotalAmount>1101</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_1-->
-                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_1_0-->
-                                                        <IncomeType>URLA_1b_10_1__1</IncomeType>
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_1_0-->
+                                                        <IncomeType>Base</IncomeType><!--URLA_1b_10_1__1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="2" xlink:label="CURRENT_INCOME_ITEM_2">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
-                                                        <!-- IncomeType = Overtime -->
                                                         <CurrentIncomeMonthlyTotalAmount>1102</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_2-->
-                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_2_0-->
-                                                        <IncomeType>URLA_1b_10_2__1</IncomeType>
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_2_0-->
+                                                        <IncomeType>Overtime</IncomeType><!--URLA_1b_10_2__1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="3" xlink:label="CURRENT_INCOME_ITEM_3">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
-                                                        <!-- IncomeType = Bonus -->
                                                         <CurrentIncomeMonthlyTotalAmount>1103</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_3-->
-                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_3_0-->
-                                                        <IncomeType>URLA_1b_10_3__1</IncomeType>
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_3_0-->
+                                                        <IncomeType>Bonus</IncomeType><!--URLA_1b_10_3__1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="4" xlink:label="CURRENT_INCOME_ITEM_4">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
-                                                        <!-- IncomeType = Commissions -->
                                                         <CurrentIncomeMonthlyTotalAmount>1104</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_4-->
-                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_4_0-->
-                                                        <IncomeType>URLA_1b_10_4__1</IncomeType>
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_4_0-->
+                                                        <IncomeType>Commissions</IncomeType><!--URLA_1b_10_4__1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="5" xlink:label="CURRENT_INCOME_ITEM_5">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
-                                                        <!-- IncomeType = Other -->
                                                         <CurrentIncomeMonthlyTotalAmount>1106</CurrentIncomeMonthlyTotalAmount><!--URLA_1b_10_6-->
-                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1b_10_6_0-->
-                                                        <IncomeType>URLA_1b_10_6__1</IncomeType>
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_6__0-->
+                                                        <IncomeType>Other</IncomeType><!--URLA_1b_10_6__1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="6" xlink:label="CURRENT_INCOME_ITEM_6">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
-                                                        <!-- IncomeType = AccessoryUnitIincome -->
                                                         <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
-                                                        <EmploymentIncomeIndicator>URLA_1e_1__1</EmploymentIncomeIndicator>
-                                                        <IncomeType>URLA_1e_1</IncomeType>
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <IncomeType>AccessoryUnitIincome</IncomeType><!--URLA_1e_1-->
+                                                    </CURRENT_INCOME_ITEM_DETAIL>
+                                                </CURRENT_INCOME_ITEM>
+                                                <CURRENT_INCOME_ITEM SequenceNumber="7" xlink:label="CURRENT_INCOME_ITEM_7">
+                                                    <CURRENT_INCOME_ITEM_DETAIL>
+                                                        <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <IncomeType>Alimony</IncomeType><!--URLA_1e_1-->
+                                                    </CURRENT_INCOME_ITEM_DETAIL>
+                                                </CURRENT_INCOME_ITEM>
+                                                <CURRENT_INCOME_ITEM SequenceNumber="8" xlink:label="CURRENT_INCOME_ITEM_8">
+                                                    <CURRENT_INCOME_ITEM_DETAIL>
+                                                        <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <IncomeType>AutomobileAllowance</IncomeType><!--URLA_1e_1-->
+                                                    </CURRENT_INCOME_ITEM_DETAIL>
+                                                </CURRENT_INCOME_ITEM>
+                                                <CURRENT_INCOME_ITEM SequenceNumber="9" xlink:label="CURRENT_INCOME_ITEM_9">
+                                                    <CURRENT_INCOME_ITEM_DETAIL>
+                                                        <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <IncomeType>BoarderIncome</IncomeType><!--URLA_1e_1-->
+                                                    </CURRENT_INCOME_ITEM_DETAIL>
+                                                </CURRENT_INCOME_ITEM>
+                                                <CURRENT_INCOME_ITEM SequenceNumber="10" xlink:label="CURRENT_INCOME_ITEM_10">
+                                                    <CURRENT_INCOME_ITEM_DETAIL>
+                                                        <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <IncomeType>CapitalGains</IncomeType><!--URLA_1e_1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM_SUMMARY>
@@ -633,7 +667,7 @@
                                                     <EmploymentClassificationType>Primary</EmploymentClassificationType>
                                                     <EmploymentPositionDescription>URLA_1b_5</EmploymentPositionDescription>
                                                     <EmploymentStartDate>2000-01-01</EmploymentStartDate><!--URLA_1b_6-->
-                                                    <EmploymentStatusType>URLA_1b_1</EmploymentStatusType>
+                                                    <EmploymentStatusType>Current</EmploymentStatusType><!--URLA_1b_1-->
                                                     <EmploymentTimeInLineOfWorkMonthsCount>17</EmploymentTimeInLineOfWorkMonthsCount><!--URLA_1b_7-->
                                                     <OwnershipInterestType>URLA_1b_9_1</OwnershipInterestType>
                                                     <SpecialBorrowerEmployerRelationshipIndicator>false</SpecialBorrowerEmployerRelationshipIndicator><!--URLA_1b_8-->
@@ -688,7 +722,7 @@
                                         <MILITARY_SERVICES>
                                             <MILITARY_SERVICE>
                                                 <MilitaryServiceExpectedCompletionDate>2000-01-01</MilitaryServiceExpectedCompletionDate><!--URLA_7a_3-->
-                                                <MilitaryStatusType>URLA_7a_2</MilitaryStatusType>
+                                                <MilitaryStatusType>ActiveDuty</MilitaryStatusType><!--URLA_7a_2-->
                                             </MILITARY_SERVICE>
                                         </MILITARY_SERVICES>
                                         <GOVERNMENT_MONITORING>
@@ -940,7 +974,7 @@
                   <RELATIONSHIP SequenceNumber="35" xlink:from="ASSET_26" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="36" xlink:from="ASSET_27" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="37" xlink:from="ASSET_29" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="38" xlink:from="LIABILITY_2" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
+                  <RELATIONSHIP SequenceNumber="38" xlink:from="LIABILITY_1" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="39" xlink:from="LIABILITY_3" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="40" xlink:from="LIABILITY_5" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="41" xlink:from="LIABILITY_6" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
@@ -952,10 +986,6 @@
                   <RELATIONSHIP SequenceNumber="47" xlink:from="LIABILITY_7" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="48" xlink:from="LIABILITY_8" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="49" xlink:from="ASSET_25" xlink:to="LIABILITY_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_LIABILITY" />
-                  <RELATIONSHIP SequenceNumber="50" xlink:from="ASSET_26" xlink:to="LIABILITY_5" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_LIABILITY" />
-                  <RELATIONSHIP SequenceNumber="51" xlink:from="ASSET_27" xlink:to="LIABILITY_4" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_LIABILITY" />
-                  <RELATIONSHIP SequenceNumber="52" xlink:from="ASSET_28" xlink:to="LIABILITY_3" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_LIABILITY" />
-                  <RELATIONSHIP SequenceNumber="53" xlink:from="ASSET_29" xlink:to="LIABILITY_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_LIABILITY" />
                   <RELATIONSHIP SequenceNumber="54" xlink:from="EXPENSE_1" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="55" xlink:from="EXPENSE_2" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="56" xlink:from="EXPENSE_3" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
