@@ -33,7 +33,7 @@
 								<AssetCashOrMarketValueAmount>44</AssetCashOrMarketValueAmount><!--URLA_4d_4-->
 								<AssetType>GiftOfCash</AssetType><!--URLA_4d_1-->
 								<FundsSourceType>URLA_4d_3</FundsSourceType>
-                                <OtherDescription>URLA_4d_3__1</OtherDescription>
+                                <FundsSourceTypeOtherDescription>URLA_4d_3__1</FundsSourceTypeOtherDescription>
 								<EXTENSION>
 									<OTHER>
 										<ULAD:ASSET_DETAIL_EXTENSION>
@@ -160,7 +160,7 @@
                         <LIABILITY SequenceNumber="1" xlink:label="LIABILITY_1">
                             <LIABILITY_DETAIL>
                                 <!--TODO: define ID-->
-                                <LiabilityAccountIdentifier>URLA_3a_10</LiabilityAccountIdentifier><!--URLA_2c_3-->
+                                <LiabilityAccountIdentifier>URLA_3a_10 URLA_2c_3</LiabilityAccountIdentifier>
                                 <LiabilityExclusionIndicator>true</LiabilityExclusionIndicator>
                                 <LiabilityMonthlyPaymentAmount>31126</LiabilityMonthlyPaymentAmount><!--URLA_3a_11 and URLA_2c_6-->
                                 <LiabilityPaymentIncludesTaxesInsuranceIndicator>true</LiabilityPaymentIncludesTaxesInsuranceIndicator>
@@ -174,7 +174,7 @@
                             </LIABILITY_DETAIL>
                             <LIABILITY_HOLDER>
                                 <NAME>
-                                    <FullName>URLA_3a_9</FullName><!--URLA_2c_2-->
+                                    <FullName>URLA_3a_9 URLA_2c_2</FullName>
                                 </NAME>
                             </LIABILITY_HOLDER>
                         </LIABILITY>
@@ -202,7 +202,7 @@
                                 <AMORTIZATION_RULE>
                                     <AmortizationType>URLA_L3_5</AmortizationType>
                                     <AmortizationTypeOtherDescription>URLA_L3_5_1</AmortizationTypeOtherDescription>
-                                    <LoanAmortizationPeriodCount>35</LoanAmortizationPeriodCount><!--URLA_L3_3-->
+                                    <LoanAmortizationPeriodCount>33</LoanAmortizationPeriodCount><!--URLA_L3_3-->
                                     <LoanAmortizationPeriodType>URLA_L3_3__1</LoanAmortizationPeriodType>
                                 </AMORTIZATION_RULE>
                             </AMORTIZATION>
@@ -343,7 +343,7 @@
                             </PURCHASE_CREDITS>
                             <TERMS_OF_LOAN>
                                 <BaseLoanAmount>491</BaseLoanAmount><!--URLA_L4_9_1-->
-                                <LienPriorityType>URLA_L3_4</LienPriorityType><!--URLA_4b_2-->
+                                <LienPriorityType>URLA_L3_4 URLA_4b_2</LienPriorityType>
                                 <LoanPurposeType>URLA_4a_2</LoanPurposeType>
                                 <LoanPurposeTypeOtherDescription>URLA_4a_2_1</LoanPurposeTypeOtherDescription>
                                 <MortgageType>URLA_L3_1</MortgageType>
@@ -401,7 +401,7 @@
                                 <CONTACT_POINTS>
                                     <CONTACT_POINT>
                                         <CONTACT_POINT_EMAIL>
-                                            <ContactPointEmailValue>URLA_1a_12</ContactPointEmailValue><!--URLA_9_8-->
+                                            <ContactPointEmailValue>URLA_1a_12 URLA_9_8</ContactPointEmailValue>
                                         </CONTACT_POINT_EMAIL>
                                     </CONTACT_POINT>
                                     <CONTACT_POINT>
@@ -441,13 +441,13 @@
                             <ADDRESSES>
                                 <ADDRESS SequenceNumber="1">
                                     <AddressType>1</AddressType><!--URLA_1a_17-->
-                                    <AddressLineText>URLA_1a_17_1</AddressLineText>
-                                    <AddressUnitIdentifier>URLA_1a_17_2</AddressUnitIdentifier>
-                                    <AddressUnitDesignatorType>URLA_1a_17_2__1</AddressUnitDesignatorType>
-                                    <CityName>URLA_1a_17_3</CityName>
+                                    <AddressLineText>URLA_1a_17_1 URLA_9_2</AddressLineText>
+                                    <AddressUnitIdentifier>URLA_1a_17_2</AddressUnitIdentifier><!-- URLA_9_2__1-->
+                                    <AddressUnitDesignatorType>URLA_1a_17_2__1</AddressUnitDesignatorType><!-- URLA_9_2__2-->
+                                    <CityName>URLA_1a_17_3</CityName><!-- URLA_9_2__3-->
                                     <CountryCode>URLA_1a_17_6</CountryCode>
-                                    <PostalCode>URLA_1a_17_5</PostalCode>
-                                    <StateCode>URLA_1a_17_4</StateCode>
+                                    <PostalCode>URLA_1a_17_5</PostalCode><!-- URLA_9_2__5-->
+                                    <StateCode>URLA_1a_17_4</StateCode><!-- URLA_9_2__4-->
                                 </ADDRESS>
                             </ADDRESSES>
                             <LANGUAGES>
@@ -650,7 +650,7 @@
                                                         </CONTACT>
                                                     </CONTACTS>
                                                     <LEGAL_ENTITY_DETAIL>
-                                                        <FullName>URLA_1b_2</FullName><!--URLA_L2_1__3 and URLA_L2_2__3-->
+                                                        <FullName>URLA_1b_2 URLA_L2_1__3 URLA_L2_2__3</FullName>
                                                     </LEGAL_ENTITY_DETAIL>
                                                 </LEGAL_ENTITY>
                                                 <ADDRESS>
@@ -841,7 +841,7 @@
                             </ROLES>
                             <TAXPAYER_IDENTIFIERS>
                                 <TAXPAYER_IDENTIFIER>
-                                    <TaxpayerIdentifierType>URLA_1a_3__1</TaxpayerIdentifierType><!--URLA_L2_5-->
+                                    <TaxpayerIdentifierType>URLA_1a_3__1 URLA_L2_5</TaxpayerIdentifierType>
                                     <TaxpayerIdentifierValue>URLA_1a_3</TaxpayerIdentifierValue>
                                 </TAXPAYER_IDENTIFIER>
                             </TAXPAYER_IDENTIFIERS>
@@ -883,7 +883,7 @@
                                 <CONTACT_POINTS>
                                     <CONTACT_POINT>
                                         <CONTACT_POINT_EMAIL>
-                                            <ContactPointEmailValue>URLA_1a_12</ContactPointEmailValue><!--URLA_9_8-->
+                                            <ContactPointEmailValue>URLA_1a_12 URLA_9_8</ContactPointEmailValue>
                                         </CONTACT_POINT_EMAIL>
                                     </CONTACT_POINT>
                                     <CONTACT_POINT>
