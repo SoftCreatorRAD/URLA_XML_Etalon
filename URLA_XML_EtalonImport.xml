@@ -48,7 +48,7 @@
                                 <!-- AssetTypeOtherDescription field is present -->
                                 <AssetCashOrMarketValueAmount>22</AssetCashOrMarketValueAmount><!--URLA_2b_2-->
                                 <AssetType>URLA_2b_1</AssetType>
-                                <AssetTypeOtherDescription>URLA_2b__1</AssetTypeOtherDescription>
+                                <AssetTypeOtherDescription>URLA_2b_1__1</AssetTypeOtherDescription>
                             </ASSET_DETAIL>
                         </ASSET>
                         <ASSET SequenceNumber="28" xlink:label="ASSET_4">
@@ -166,7 +166,7 @@
                                 <LiabilityPaymentIncludesTaxesInsuranceIndicator>true</LiabilityPaymentIncludesTaxesInsuranceIndicator>
                                 <LiabilityPayoffStatusIndicator>true</LiabilityPayoffStatusIndicator><!--URLA_3a_13 and URLA_2c_5-->
                                 <LiabilityRemainingTermMonthsCount>11</LiabilityRemainingTermMonthsCount>
-                                <LiabilityType>Revolving</LiabilityType><!--URLA_3a_11 and URLA_2c_1-->
+                                <LiabilityType>Revolving</LiabilityType><!--URLA_3a_11__1 and URLA_2c_1-->
                                 <LiabilityTypeOtherDescription>URLA_2c_1__1</LiabilityTypeOtherDescription>
                                 <LiabilityUnpaidBalanceAmount>31124</LiabilityUnpaidBalanceAmount><!--URLA_3a_11 and URLA_2c_4-->
                                 <MortgageType>URLA_3a_14</MortgageType>
@@ -216,7 +216,7 @@
                             <CLOSING_INFORMATION>
                                 <CLOSING_INFORMATION_DETAIL>
                                     <CashFromBorrowerAtClosingAmount>415</CashFromBorrowerAtClosingAmount><!--URLA_L4_15_1-->
-                                    <CashToBorrowerAtClosingAmount>4151</CashToBorrowerAtClosingAmount><!--URLA_L4_15_2-->
+                                    <CashToBorrowerAtClosingAmount>415</CashToBorrowerAtClosingAmount><!--URLA_L4_15_2-->
                                 </CLOSING_INFORMATION_DETAIL>
                             </CLOSING_INFORMATION>
                             <CONSTRUCTION>
@@ -268,10 +268,39 @@
                             </HMDA_LOAN>
                             <HOUSING_EXPENSES>
                                 <HOUSING_EXPENSE SequenceNumber="1">
-                                    <!--TODO: it's not clear what ID should be set-->
                                     <HousingExpensePaymentAmount>3141</HousingExpensePaymentAmount><!--URLA_L3_14_1-->
-                                    <HousingExpenseTimingType>3142</HousingExpenseTimingType><!--URLA_L3_14_2-->
-                                    <HousingExpenseType>3143</HousingExpenseType><!--URLA_L3_14_3-->
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>FirstMortgagePrincipalAndInterest</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE SequenceNumber="2">
+                                    <HousingExpensePaymentAmount>3146</HousingExpensePaymentAmount><!--URLA_L3_14_6-->
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>OtherMortgageLoanPrincipalAndInterest</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE SequenceNumber="3">
+                                    <HousingExpensePaymentAmount>3143</HousingExpensePaymentAmount><!--URLA_L3_14_3-->
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>HomeownersInsurance</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE SequenceNumber="4">
+                                    <HousingExpensePaymentAmount>3148</HousingExpensePaymentAmount><!--URLA_L3_14_8-->
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>SupplementalPropertyInsurance</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE SequenceNumber="5">
+                                    <HousingExpensePaymentAmount>3147</HousingExpensePaymentAmount><!--URLA_L3_14_7-->
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>RealEstateTax</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE SequenceNumber="6">
+                                   <HousingExpensePaymentAmount>3144</HousingExpensePaymentAmount><!--URLA_L3_14_4-->
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>MIPremium</HousingExpenseType>
+                                </HOUSING_EXPENSE>
+                                <HOUSING_EXPENSE SequenceNumber="7">
+                                    <HousingExpensePaymentAmount>3142</HousingExpensePaymentAmount><!--URLA_L3_14_2-->
+                                    <HousingExpenseTimingType>Proposed</HousingExpenseTimingType>
+                                    <HousingExpenseType>HomeownersAssociationDuesAndCondominiumFees</HousingExpenseType>
                                 </HOUSING_EXPENSE>
                                 <HOUSING_EXPENSE_SUMMARY>
                                     <HousingExpenseProposedTotalMonthlyPaymentAmount>314</HousingExpenseProposedTotalMonthlyPaymentAmount><!--URLA_L3_14-->
@@ -432,7 +461,7 @@
                                 </CONTACT_POINTS>
                                 <NAME>
                                     <FirstName>URLA_1a_1_1</FirstName><!--URLA_1a_6_1 and URLA_9_5__1-->
-                                    <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1-->
+                                    <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1 and URLA_1d_2__1-->
                                     <LastName>URLA_1a_1_3</LastName><!--URLA_1b_2__1 and URLA_1a_6_3 and URLA_9_5__3-->
                                     <MiddleName>URLA_1a_1_2</MiddleName><!--URLA_1a_6_2 and URLA_9_5__2-->
                                     <SuffixName>URLA_1a_1_4</SuffixName><!--URLA_1a_6_4 and URLA_9_5__4-->
@@ -609,7 +638,7 @@
                                                 <PriorPropertyShortSaleCompletedIndicator>true</PriorPropertyShortSaleCompletedIndicator><!--URLA_5b_6-->
                                                 <PriorPropertyForeclosureCompletedIndicator>true</PriorPropertyForeclosureCompletedIndicator><!--URLA_5b_7-->
                                                 <PriorPropertyTitleType>URLA_5a_1_3</PriorPropertyTitleType>
-                                                <PriorPropertyUsageType>true</PriorPropertyUsageType><!--URLA_5a_1_2-->
+                                                <PriorPropertyUsageType>PrimaryResidence</PriorPropertyUsageType><!--URLA_5a_1_2-->
                                                 <PropertyProposedCleanEnergyLienIndicator>true</PropertyProposedCleanEnergyLienIndicator><!--URLA_5a_5-->
                                                 <OutstandingJudgmentsIndicator>true</OutstandingJudgmentsIndicator><!--URLA_5b_2-->
                                                 <UndisclosedBorrowedFundsIndicator>true</UndisclosedBorrowedFundsIndicator><!--URLA_5a_3-->
@@ -835,7 +864,7 @@
                                         <RelationshipVestingTypeOtherDescription>URLA_L2_4__1</RelationshipVestingTypeOtherDescription>
 									</PROPERTY_OWNER>
                                     <ROLE_DETAIL>
-                                        <PartyRoleType>Borrower</PartyRoleType><!--URLA_4b_1__1 and URLA_9_5 and URLA_L2_1 and URLA_L2_2 and URLA_L2_5-->
+                                        <PartyRoleType>Borrower</PartyRoleType><!--URLA_4b_1__1 and URLA_9_5 and URLA_L2_1 and URLA_L2_2 and URLA_L2_5 and URLA_9_1__1-->
                                     </ROLE_DETAIL>
                                 </ROLE>
                             </ROLES>
@@ -914,7 +943,7 @@
                                 </CONTACT_POINTS>
                                 <NAME>
                                     <FirstName>URLA_1a_1_1</FirstName><!--URLA_1a_6_1 and URLA_9_5__1-->
-                                    <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1 or URLA_L2_2__2 and URLA_L2_1__2-->
+                                    <FullName>URLA_4b_1</FullName><!--URLA_1b_2__1 or URLA_L2_2__2 and URLA_1d_2__1 and URLA_L2_1__2-->
                                     <LastName>URLA_1a_1_3</LastName><!--URLA_1b_2__1 and URLA_1a_6_3 and URLA_9_5__3-->
                                     <MiddleName>URLA_1a_1_2</MiddleName><!--URLA_1a_6_2 and URLA_9_5__2-->
                                     <SuffixName>URLA_1a_1_4</SuffixName><!--URLA_1a_6_4 and URLA_9_5__4-->
@@ -941,64 +970,19 @@
                   <RELATIONSHIP SequenceNumber="1" xlink:from="ASSET_1" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="2" xlink:from="ASSET_2" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="3" xlink:from="ASSET_3" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="4" xlink:from="ASSET_4" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="5" xlink:from="ASSET_5" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="6" xlink:from="ASSET_6" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="7" xlink:from="ASSET_7" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="8" xlink:from="ASSET_13" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="9" xlink:from="ASSET_14" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="10" xlink:from="ASSET_16" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="11" xlink:from="ASSET_17" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="12" xlink:from="ASSET_18" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="13" xlink:from="ASSET_19" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="14" xlink:from="ASSET_21" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="15" xlink:from="ASSET_22" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="16" xlink:from="ASSET_23" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="17" xlink:from="ASSET_24" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="18" xlink:from="ASSET_26" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="19" xlink:from="ASSET_28" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="20" xlink:from="ASSET_29" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="21" xlink:from="ASSET_5" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="22" xlink:from="ASSET_6" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="23" xlink:from="ASSET_7" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="24" xlink:from="ASSET_8" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="25" xlink:from="ASSET_9" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="26" xlink:from="ASSET_10" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="27" xlink:from="ASSET_11" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="28" xlink:from="ASSET_12" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="29" xlink:from="ASSET_15" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="30" xlink:from="ASSET_16" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="31" xlink:from="ASSET_17" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="32" xlink:from="ASSET_18" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="33" xlink:from="ASSET_20" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="34" xlink:from="ASSET_25" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="35" xlink:from="ASSET_26" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="36" xlink:from="ASSET_27" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="37" xlink:from="ASSET_29" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
+                  <RELATIONSHIP SequenceNumber="4" xlink:from="ASSET_4" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="38" xlink:from="LIABILITY_1" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="39" xlink:from="LIABILITY_3" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="40" xlink:from="LIABILITY_5" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="41" xlink:from="LIABILITY_6" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="42" xlink:from="LIABILITY_1" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="43" xlink:from="LIABILITY_2" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="44" xlink:from="LIABILITY_4" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="45" xlink:from="LIABILITY_5" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="46" xlink:from="LIABILITY_6" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="47" xlink:from="LIABILITY_7" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="48" xlink:from="LIABILITY_8" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/LIABILITY_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="49" xlink:from="ASSET_25" xlink:to="LIABILITY_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ASSET_IsAssociatedWith_LIABILITY" />
                   <RELATIONSHIP SequenceNumber="54" xlink:from="EXPENSE_1" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="55" xlink:from="EXPENSE_2" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="56" xlink:from="EXPENSE_3" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="57" xlink:from="EXPENSE_5" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="58" xlink:from="EXPENSE_4" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
-                  <RELATIONSHIP SequenceNumber="59" xlink:from="EXPENSE_5" xlink:to="BORROWER_2" xlink:arcrole="urn:fdc:mismo.org:2009:residential/EXPENSE_IsAssociatedWith_ROLE" />
                   <RELATIONSHIP SequenceNumber="60" xlink:from="CURRENT_INCOME_ITEM_1" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
                   <RELATIONSHIP SequenceNumber="61" xlink:from="CURRENT_INCOME_ITEM_2" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
                   <RELATIONSHIP SequenceNumber="62" xlink:from="CURRENT_INCOME_ITEM_3" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
                   <RELATIONSHIP SequenceNumber="63" xlink:from="CURRENT_INCOME_ITEM_4" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
                   <RELATIONSHIP SequenceNumber="64" xlink:from="CURRENT_INCOME_ITEM_5" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
-                  <RELATIONSHIP SequenceNumber="65" xlink:from="BORROWER_2" xlink:to="BORROWER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/ROLE_SharesJointCreditReportWith_ROLE" />
+                  <RELATIONSHIP SequenceNumber="60" xlink:from="CURRENT_INCOME_ITEM_6" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
+                  <RELATIONSHIP SequenceNumber="61" xlink:from="CURRENT_INCOME_ITEM_7" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
+                  <RELATIONSHIP SequenceNumber="62" xlink:from="CURRENT_INCOME_ITEM_8" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
+                  <RELATIONSHIP SequenceNumber="63" xlink:from="CURRENT_INCOME_ITEM_9" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
+                  <RELATIONSHIP SequenceNumber="64" xlink:from="CURRENT_INCOME_ITEM_10" xlink:to="EMPLOYER_1" xlink:arcrole="urn:fdc:mismo.org:2009:residential/CURRENT_INCOME_ITEM_IsAssociatedWith_EMPLOYER" />
                </RELATIONSHIPS>
                 </DEAL>
             </DEALS>
