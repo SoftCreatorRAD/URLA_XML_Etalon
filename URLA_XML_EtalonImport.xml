@@ -330,8 +330,8 @@
 							</REFINANCE>
                             <LOAN_IDENTIFIERS>
                                 <LOAN_IDENTIFIER SequenceNumber="1">
-                                    <LoanIdentifier>URLA_B_03</LoanIdentifier>
-                                    <LoanIdentifierType>URLA_B_01</LoanIdentifierType>
+                                    <LoanIdentifier>URLA_B_01</LoanIdentifier><!--URLA_B_02 or URLA_B_03-->
+                                    <LoanIdentifierType>LenderLoan</LoanIdentifierType><!--URLA_B_01__1 or URLA_B_02__1 or URLA_B_03__1-->
                                     <!-- <LoanIdentifierType>LenderLoan</LoanIdentifierType> -->
                                 </LOAN_IDENTIFIER>
                             </LOAN_IDENTIFIERS>
@@ -469,7 +469,7 @@
                             </INDIVIDUAL>
                             <ADDRESSES>
                                 <ADDRESS SequenceNumber="1">
-                                    <AddressType>1</AddressType><!--URLA_1a_17-->
+                                    <AddressType>Mailing</AddressType><!--URLA_1a_17-->
                                     <AddressLineText>URLA_1a_17_1 URLA_9_2</AddressLineText>
                                     <AddressUnitIdentifier>URLA_1a_17_2</AddressUnitIdentifier><!-- URLA_9_2__1-->
                                     <AddressUnitDesignatorType>URLA_1a_17_2__1</AddressUnitDesignatorType><!-- URLA_9_2__2-->
@@ -588,36 +588,50 @@
                                                 <CURRENT_INCOME_ITEM SequenceNumber="6" xlink:label="CURRENT_INCOME_ITEM_6">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
-                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_1__1-->
                                                         <IncomeType>AccessoryUnitIincome</IncomeType><!--URLA_1e_1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="7" xlink:label="CURRENT_INCOME_ITEM_7">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
-                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_1__1-->
                                                         <IncomeType>Alimony</IncomeType><!--URLA_1e_1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="8" xlink:label="CURRENT_INCOME_ITEM_8">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
-                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_1__1-->
                                                         <IncomeType>AutomobileAllowance</IncomeType><!--URLA_1e_1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="9" xlink:label="CURRENT_INCOME_ITEM_9">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
-                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_1__1-->
                                                         <IncomeType>BoarderIncome</IncomeType><!--URLA_1e_1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM SequenceNumber="10" xlink:label="CURRENT_INCOME_ITEM_10">
                                                     <CURRENT_INCOME_ITEM_DETAIL>
                                                         <CurrentIncomeMonthlyTotalAmount>12</CurrentIncomeMonthlyTotalAmount><!--URLA_1e_2-->
-                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1e_1__1-->
+                                                        <EmploymentIncomeIndicator>true</EmploymentIncomeIndicator><!--URLA_1b_10_1__1-->
                                                         <IncomeType>CapitalGains</IncomeType><!--URLA_1e_1-->
+                                                    </CURRENT_INCOME_ITEM_DETAIL>
+                                                </CURRENT_INCOME_ITEM>
+                                                <CURRENT_INCOME_ITEM>
+													<CURRENT_INCOME_ITEM_DETAIL>
+														<CurrentIncomeMonthlyTotalAmount>250.00</CurrentIncomeMonthlyTotalAmount>
+														<EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1e_1-->
+														<IncomeType>Royalties</IncomeType><!--URLA_1e_1__1-->
+													</CURRENT_INCOME_ITEM_DETAIL>
+												</CURRENT_INCOME_ITEM>
+                                                <CURRENT_INCOME_ITEM SequenceNumber="19" xlink:label="CURRENT_INCOME_ITEM_19">
+                                                    <CURRENT_INCOME_ITEM_DETAIL>
+                                                        <CurrentIncomeMonthlyTotalAmount>55.00</CurrentIncomeMonthlyTotalAmount>
+                                                        <EmploymentIncomeIndicator>false</EmploymentIncomeIndicator><!--URLA_1e_1-->
+                                                        <IncomeType>MortgageDifferential</IncomeType><!--URLA_1e_1__1-->
                                                     </CURRENT_INCOME_ITEM_DETAIL>
                                                 </CURRENT_INCOME_ITEM>
                                                 <CURRENT_INCOME_ITEM_SUMMARY>
